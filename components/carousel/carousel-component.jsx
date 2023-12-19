@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from "./carousel.module.css"
 import Image from 'next/image';
 
-const CarouselList = carouselImages.map((img) => {
+const CarouselList = carouselImages.map((img, index) => {
     return(
-        <Carousel.Item>
+        <Carousel.Item key={index}>
             <img
                 className="d-block w-100"
                 src={img}

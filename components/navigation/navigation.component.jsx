@@ -54,10 +54,10 @@ const Navigation = () => {
                             <Link onClick={showNavBar} href="/pixelperfect">
                                 Pixel Perfect
                             </Link>
-                            <Link onClick={showNavBar} href="/">
+                            <Link onClick={showNavBar} href="/brandstand">
                                 Brandstand
                             </Link>
-                            <Link onClick={showNavBar} href="/">
+                            <Link onClick={showNavBar} href="/mediapedia">
                                 Media Pedia
                             </Link>
                         </div>

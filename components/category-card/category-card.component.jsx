@@ -6,9 +6,9 @@ const CategoryCard = () => {
     return(
         <div>
             {
-                categoryCardImages.map((img) => {
+                categoryCardImages.map((img, index) => {
                     return(
-                        <div className={classes.category_card}>
+                        <div key={index} className={classes.category_card}>
                             <Image
                                 className={classes.category_card_img}
                                 src={img} alt="" 

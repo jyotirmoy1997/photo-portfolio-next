@@ -1,6 +1,10 @@
+import VideoPage from "@/components/video-page/video-page.component"
+
 const MediaPedia = () => {
     return(
-        <div>This is MediaPedia Page</div>
+        <div>
+            <VideoPage/>
+        </div>
     )
         
 }
