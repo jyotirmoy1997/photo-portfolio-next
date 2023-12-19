@@ -1,0 +1,8 @@
+.id_container{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 900px;
+}
