@@ -4,6 +4,7 @@ import fblogo from "@/assets/logos/facebook.png"
 import instalogo from "@/assets/logos/instagram.png"
 import { imageAlbums } from "@/assets/imageLinks.js"
 import classes from "./images-page.module.css"
+import Image from "next/image"
 
 function isEmpty(obj) {
     return Object.keys(obj).length === 0;
@@ -38,8 +39,8 @@ const ImagePage = ({imageAlbum}) => {
                             <div className={classes.image_content}>
                                 <h5>Links</h5>
                                 <div className={classes.image_desc_container_link}>
-                                    <img src={fblogo.src} alt="" width={30} height={30} />
-                                    <img src={instalogo.src} alt="" width={30} height={30} />
+                                    <Image src={fblogo.src} alt="" width={30} height={30} />
+                                    <Image src={instalogo.src} alt="" width={30} height={30} />
                                 </div>
                             </div>
                         </div>

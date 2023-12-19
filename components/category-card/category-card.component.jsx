@@ -1,5 +1,6 @@
 import { categoryCardImages } from "@/assets/imageLinks"
 import classes from "./category-card.module.css"
+import Image from "next/image"
 
 const CategoryCard = () => {
     return(
@@ -8,7 +9,12 @@ const CategoryCard = () => {
                 categoryCardImages.map((img) => {
                     return(
                         <div className={classes.category_card}>
-                            <img src={img} alt="" />
+                            <Image
+                                className={classes.category_card_img}
+                                src={img} alt="" 
+                                width={2000} 
+                                height={1000}
+                            />
                         </div>
                     )
                 })

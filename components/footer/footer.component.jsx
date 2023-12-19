@@ -5,6 +5,7 @@ import facebookLogo from "../../assets/logos/facebook.png"
 import instagramLogo from "../../assets/logos/instagram.png"
 import youtubeLogo from "../../assets/logos/youtube.png"
 import classes from "./footer.module.css"
+import Image from "next/image"
 
 const Footer = () => {
     const d = new Date(Date.now())
@@ -19,29 +20,29 @@ const Footer = () => {
                     </p>
                     <div className={classes.footer_icons}>
                         <a href="https://www.facebook.com/profile.php?id=100084598611956" target="_blank">
-                            <img src={facebookLogo.src} alt="" srcset="" height="30px" width="30px"/>
+                            <Image src={facebookLogo.src} alt="fb-logo" height={30} width={30}/>
                         </a>
                         <a href="https://www.instagram.com/dandd.productions/" target="_blank">
-                            <img src={instagramLogo.src} alt="" srcset="" height="30px" width="30px"/>
+                            <Image src={instagramLogo.src} alt="insta-logo" height={30} width={30}/>
                         </a>
                         <a href="https://www.youtube.com/@ddproductions664" target="_blank">
-                            <img src={youtubeLogo.src} alt="" srcset="" height="30px" width="30px"/>
+                            <Image src={youtubeLogo.src} alt="yt-logo" height={30} width={30}/>
                         </a>
                     </div>
                 </div>
                 <div className={classes.footer_contact}>
                     <div className={classes.footer_contact_items}>
-                            <img src={locationLogo.src} alt="" srcset="" height="30px" width="30px"/>
+                            <Image src={locationLogo.src} alt="loc-logo" height={30} width={30}/>
                             <p>Raikatpara , Jalpaiguri</p>
                             
                     </div>
                     <div className={classes.footer_contact_items}>
-                            <img src={phoneLogo.src} alt="" srcset="" height="30px" width="30px"/>
+                            <Image src={phoneLogo.src} alt="ph-logo" height={30} width={30}/>
                             <p>+917865003343 / +919614455661</p>
                             
                     </div>
                     <div className={classes.footer_contact_items}>
-                            <img src={mailLogo.src} alt="" srcset="" height="30px" width="30px"/>
+                            <Image src={mailLogo.src} alt="mail-logo" height={30} width={30}/>
                             <p>dasandduttaproductions@gmail.com</p>
                             
                     </div>
