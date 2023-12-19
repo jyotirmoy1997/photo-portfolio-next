@@ -1,11 +1,42 @@
-.category_card{
+.category_card_wrapper{
     width: 85%;
     margin: 0 auto;
-    padding: 0.5em 0.5em;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.category_card{
+    width: 100%;
+    display: block;
+    position: relative;
 }
 
 .category_card_img{
     width: 100%;
     height: auto;
     border-radius: 12px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-image: fill 0 linear-gradient(to left, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.det_gradient{
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
