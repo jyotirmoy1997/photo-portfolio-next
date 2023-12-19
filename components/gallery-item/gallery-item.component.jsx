@@ -36,7 +36,7 @@ const GalleryItem = ({logo, imageArray}) => {
 
     useEffect(() => {
         if(currentAlbum !== '')
-            redirect(`/bibahoscapes/${currentAlbum}`)
+            redirect(`/bibahoscapes/${currentAlbum}`, 'push')
     }, [currentAlbum])
     const toImages = (id) => {
         setCurrentAlbum(id)
