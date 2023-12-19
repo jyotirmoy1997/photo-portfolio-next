@@ -6,6 +6,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { GrClose } from 'react-icons/gr';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import classes from "./navigation.module.css"
+import Image from "next/image";
 
 
 const Navigation = () => {
@@ -30,9 +31,9 @@ const Navigation = () => {
         <Fragment>
             <div className={classes.navigation}>
                 <Link className={classes.logo_container} href="/">
-                    <img 
+                    <Image 
                     src={logo.src}
-                    alt="" srcSet="" height="52.5px" width="120px" />
+                    alt="main-logo" width={120} height={52.5} />
                 </Link>
                 <div ref={navRef} className={classes.nav_links_container}>
                     <Link onClick={showNavBar} className={classes.nav_link} href="/">
@@ -47,10 +48,10 @@ const Navigation = () => {
                     <div onClick={() => toggleDropdown()} className={`${classes.nav_link} ${classes.dropdown_wrapper}`}>
                         <span>Services</span><span><IoMdArrowDropdown/></span>
                         <div ref={dropdownRef} className={`${classes.dropdown_container} ${classes.dropdown_hide}`}>
-                            <Link onClick={showNavBar} href="/gallery/bibahoscapes">
+                            <Link onClick={showNavBar} href="/bibahoscapes">
                                 Bibaho Scapes
                             </Link>
-                            <Link onClick={showNavBar} href="/gallery/pixelperfect">
+                            <Link onClick={showNavBar} href="/pixelperfect">
                                 Pixel Perfect
                             </Link>
                             <Link onClick={showNavBar} href="/">
