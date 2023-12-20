@@ -14,3 +14,17 @@
 .gallery_preview_image_container img{
     border-radius: 5px;
 }
+
+@media (max-width : 850px){
+    .gallery_preview_image_container{
+        flex-direction: column;
+        width: 95%;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery_preview_image_container img{
+        height: auto;
+        width: 90%;
+    }
+}

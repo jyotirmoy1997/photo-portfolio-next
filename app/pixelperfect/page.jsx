@@ -5,7 +5,7 @@ import GalleryItem from "@/components/gallery-item/gallery-item.component"
 const PixelPerfect = () => {
     return(
         <>
-            <GalleryItem logo={ppLogo} imageArray={PPThumbnails}/>
+            <GalleryItem logo={ppLogo} imageArray={PPThumbnails} segment="pixelperfect"/>
         </>
     )
         

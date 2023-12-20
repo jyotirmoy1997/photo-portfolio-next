@@ -17,7 +17,7 @@
 .category_card_img{
     width: 100%;
     height: auto;
-    border-radius: 12px;
+    /* border-radius: 5px; */
 }
 .overlay {
     position: absolute;
@@ -26,10 +26,11 @@
     width: 100%;
     height: 100%;
     border-image: fill 0 linear-gradient(to left, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 5px; */
 }
 
 .det_gradient{
@@ -39,4 +40,12 @@
     color: white;
     display: flex;
     justify-content: center;
+    /* border-radius: 5px; */
+}
+
+@media (max-width : 850px){
+    .category_card_wrapper{
+        width: 100%;
+        padding: 0.1em;
+    }
 }

@@ -43,3 +43,40 @@
     text-align: center;
     /* background-color: bisque; */
 }
+
+@media (max-width : 850px){
+    .footer_wrapper{
+        
+    }
+    
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+    
+    .footer_contact{
+        width: 80%;
+        justify-content: center;
+    }
+    
+    .footer_contact_items{
+        display: flex;
+        justify-content:flex-start;
+    }
+    
+    .footer_contact_items p{
+        padding-left: 1em;
+    }
+    
+    .footer_icons{
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+    }
+    
+    .copyright_text{
+        text-align: center;
+        /* background-color: bisque; */
+    }
+}

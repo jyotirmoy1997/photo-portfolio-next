@@ -5,7 +5,7 @@ import { BBSThumbnails } from "@/assets/imageLinks"
 const BBS = () => {
     return(
         <>
-            <GalleryItem logo={bbsLogo} imageArray={BBSThumbnails}/>
+            <GalleryItem logo={bbsLogo} imageArray={BBSThumbnails} segment="bibahoscapes"/>
         </>
         
     )

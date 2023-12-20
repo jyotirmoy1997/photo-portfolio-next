@@ -58,3 +58,10 @@
 .gallery_thumb_logo{
     width: 20%;
 }
+
+@media (max-width : 850px){
+    .gallery_thumb_logo{
+        width: 70%;
+    }
+
+}

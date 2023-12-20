@@ -3,12 +3,12 @@ import { useState, useEffect } from "react"
 import { redirect } from 'next/navigation'
 import classes from "./gallery-item.module.css"
 
-const GalleryItem = ({logo, imageArray}) => {
+const GalleryItem = ({logo, imageArray, segment}) => {
     const [currentAlbum, setCurrentAlbum] = useState('')
 
     useEffect(() => {
         if(currentAlbum !== '')
-            redirect(`/bibahoscapes/${currentAlbum}`, 'push')
+            redirect(`/${segment}/${currentAlbum}`, 'push')
     }, [currentAlbum])
     const toImages = (id) => {
         setCurrentAlbum(id)

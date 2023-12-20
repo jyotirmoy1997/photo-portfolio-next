@@ -50,7 +50,9 @@ const ImagePage = ({imageAlbum}) => {
                         {
                             currAlbumInfo.images.map((image) => {
                                 return(
-                                    <div className={classes.img_x}><img src={image} alt="" srcset="" /></div>
+                                    <div className={classes.img_x}>
+                                        <img className={classes.img_y} src={image} alt="" srcset="" />
+                                    </div>
                                 )
                             })
                         }
