@@ -1,9 +1,11 @@
-import VideoPage from "@/components/video-page/video-page.component"
+import GalleryItem from "@/components/gallery-item/gallery-item.component"
+import { MPThumbnails } from "@/assets/imageLinks"
+import mpLogo from "@/assets/logos/MediaPedia.png"
 
 const MediaPedia = () => {
     return(
         <div>
-            <VideoPage/>
+            <GalleryItem logo={mpLogo} imageArray={MPThumbnails} segment="mediapedia" />
         </div>
     )
         

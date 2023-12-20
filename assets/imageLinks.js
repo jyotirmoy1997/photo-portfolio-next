@@ -107,6 +107,21 @@ export const imageAlbums = {
     },
 }
 
+export const videoAlbums = {
+    "tapatini" : {
+        text : "TAPA TINI",
+        link : "https://www.youtube.com/embed/VzsL6nZwMmg?si=rbs5psYPySx0gEmd"
+    },
+    "agomoni" : {
+        text : "AGOMONI",
+        link : "https://www.youtube.com/embed/NwAlLHvcOHE?si=OG0RVGVX03nt9oo1"
+    },
+    "pasoori" : {
+        text : "PASOORI",
+        link : "https://www.youtube.com/embed/q1FoEyb9wwA?si=PQu1XlV6USJFn2te"
+    }
+}
+
 
 export const BBSThumbnails = [   
     {
@@ -148,5 +163,30 @@ export const PPThumbnails = [
         id : "conceptual",
         category : "Wedding Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702994714/Photography%20Website/ALBUM/thumbnails/ADP_3652_1_vk6frr.jpg",
+    }
+]
+
+export const MPThumbnails = [   
+    {
+        id : 1,
+        text : "TAPA TINI",
+        id : "tapatini",
+        category : "Videography",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703058379/Photography%20Website/ALBUM/thumbnails/sddefault_1_rkkpha.jpg",
+        
+    },
+    {
+        id : 2,
+        text : "AGOMONI",
+        id : "agomoni",
+        category : "Videography",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524458/Photography%20Website/Gallery-Preview/media-pedia/Agomini_Thumbnail_ogxs9t.jpg",
+    },
+    {
+        id : 3,
+        text : "PASOORI",
+        id : "pasoori",
+        category : "Videography",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703058380/Photography%20Website/ALBUM/thumbnails/sddefault_ipswjz.jpg",
     }
 ]

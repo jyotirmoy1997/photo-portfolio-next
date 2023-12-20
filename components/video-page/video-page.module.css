@@ -34,3 +34,38 @@
 .video_placeholder{
     width: 60%;
 }
+
+@media (max-width : 850px){
+    .video_page_wrapper{
+        /* height: 650px; */
+        flex-direction: column;
+        gap: 20px;
+    }
+    .video_desc_wrapper{
+        background-color: rgba(0, 52, 102, 0.9);
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .video_desc{
+        width: 85%;
+        height: 85%;
+        margin: 2em auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .video_desc_link_container{
+        display: flex;
+        width: 25%;
+        gap: 0.5em;
+        justify-content: space-evenly;
+    }
+    
+    .video_placeholder{
+        width: 90%;
+        margin: 0 auto;
+        height: 320px;
+    }
+}

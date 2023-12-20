@@ -1,8 +1,10 @@
-import ImagesPage from "@/components/images-page/images-page.component"
+import VideoPage from "@/components/video-page/video-page.component"
 
 const MPAlbum = ({params}) => {
     return(
-        <ImagesPage imageAlbum={params.album} />
+        <>
+            <VideoPage videoAlbum={params.album}/>
+        </>
     )
 }
 

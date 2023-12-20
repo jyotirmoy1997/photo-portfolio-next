@@ -1,9 +1,9 @@
 'use client'
 
-const YTVideo = () => {
+const YTVideo = ({src}) => {
     return(
         <iframe width="100%" height="100%" 
-            src="https://www.youtube.com/embed/VzsL6nZwMmg?si=rnsqBO_tDwODGvg6" 
+            src={src} 
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowFullScreen>

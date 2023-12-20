@@ -5,10 +5,7 @@ import instalogo from "@/assets/logos/instagram.png"
 import { imageAlbums } from "@/assets/imageLinks.js"
 import classes from "./images-page.module.css"
 import Image from "next/image"
-
-function isEmpty(obj) {
-    return Object.keys(obj).length === 0;
-}
+import { isEmpty } from "@/utils/utils"
 
 const ImagePage = ({imageAlbum}) => {
     const [currAlbumInfo, setCurrAlbumInfo] = useState({})
