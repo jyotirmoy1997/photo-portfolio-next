@@ -7,9 +7,8 @@ const port2 = "https://res.cloudinary.com/dst1eqcmo/image/upload/v1672149375/Pho
 
 const About = () => {
     return(
-        <div className={classes.about_page}>
+        <div>
             <div className={classes.id_container}>
-                This is about Page
                 <IdentityCard imageURL={port1} authName="Anish Dutta" />
                 <IdentityCard imageURL={port2} authName="Shuvrajyoti Das"/>
             </div>

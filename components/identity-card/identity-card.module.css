@@ -1,6 +1,25 @@
 .identity_card{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
+    gap: 40px;
+}
+
+.identity_card_img_wrapper{
+    width: 40%;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+@media (max-width : 850px){
+    .identity_card{
+        flex-direction: column;
+    }
+    .identity_card_img_wrapper{
+        width: 80%;
+        height: 50%;
+    }
 }
