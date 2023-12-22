@@ -4,7 +4,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import { carouselImages } from '@/assets/imageLinks';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from "./carousel.module.css"
-import Image from 'next/image';
 
 const CarouselList = carouselImages.map((img, index) => {
     return(

@@ -2,6 +2,12 @@
 import { useState, useEffect } from "react"
 import { redirect } from 'next/navigation'
 import classes from "./gallery-item.module.css"
+import Image from "next/image"
+
+const imageStyle = {
+    height: 'auto',
+    width: '100%',
+}
 
 const GalleryItem = ({logo, imageArray, segment}) => {
     const [currentAlbum, setCurrentAlbum] = useState('')
@@ -16,7 +22,14 @@ const GalleryItem = ({logo, imageArray, segment}) => {
     return(
         <>
         <div className={classes.gallery_item_wrapper}>
-            <img className={classes.gallery_thumb_logo} src={logo.src} alt="" />
+            <div className={classes.gallery_thumb_logo}>
+                <Image 
+                    src={logo.src} alt="gallery-thumb-logo" 
+                    height={7680}
+                    width={4320}
+                    style={imageStyle}
+                />
+            </div>
             <div className={classes.image_container}>
 
                 {

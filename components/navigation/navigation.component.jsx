@@ -30,10 +30,10 @@ const Navigation = () => {
     return(
         <Fragment>
             <div className={classes.navigation}>
-                <Link className={classes.logo_container} href="/">
+                <Link href="/">
                     <Image 
                     src={logo.src}
-                    alt="main-logo" width={120} height={52.5} />
+                    alt="main-logo" width={120} height={52.5} priority />
                 </Link>
                 <div ref={navRef} className={classes.nav_links_container}>
                     <Link onClick={showNavBar} className={classes.nav_link} href="/">

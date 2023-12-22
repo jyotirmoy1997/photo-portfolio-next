@@ -64,7 +64,7 @@ export const imageAlbums = {
         text : "GOURAVMOY & PRIYANKA",
         category : "Wedding Photography",
         images : [
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916396/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/_DSC0284_2_oexjul.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916309/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/_DSC0196_rrwzxv.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697635800/Photography%20Website/Gallery-Preview/albums/gouravmoy%20and%20priyanka/ADP_1249_copy_csgcoh.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697635800/Photography%20Website/Gallery-Preview/albums/gouravmoy%20and%20priyanka/RAJ_0047_copy_2_xslo8o.jpg",
         ]

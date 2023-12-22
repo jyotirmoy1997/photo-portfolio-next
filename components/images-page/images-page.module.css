@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 2em 0;
+    /* background-color: aqua; */
 }
 
 .image_desc_wrapper{
@@ -56,15 +57,17 @@
 
 .img_x{
     height: 90%;
+    width: auto;
     margin-top: 2em;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    background-color: chocolate;
+    position: relative;
+    /* background-color: chocolate; */
 }
 
-.img_x img{
+/* .img_x img{
     height: 100%;
-}
+} */
 
 @media (max-width : 850px){
     .image_page_wrapper{
@@ -109,6 +112,9 @@
         margin-left: 0.25em;
         margin-right: 0.25em;
         background-color: chocolate;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .img_y{
         width: 100%;

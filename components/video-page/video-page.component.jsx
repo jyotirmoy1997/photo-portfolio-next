@@ -14,7 +14,7 @@ const VideoPage = ({videoAlbum}) => {
     const [currAlbumInfo, setCurrAlbumInfo] = useState({})
     useEffect(() => {
         setCurrAlbumInfo(videoAlbums[videoAlbum])
-    }, [])
+    }, [videoAlbum])
 
     if(isEmpty(currAlbumInfo)){
         return(

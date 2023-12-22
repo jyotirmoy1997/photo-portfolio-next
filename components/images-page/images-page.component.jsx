@@ -6,16 +6,23 @@ import { imageAlbums } from "@/assets/imageLinks.js"
 import classes from "./images-page.module.css"
 import Image from "next/image"
 import { isEmpty } from "@/utils/utils"
+import { Spinner } from "react-bootstrap"
+
+const imageStyle = {
+    height: '100%',
+    width : 'auto'
+}
 
 const ImagePage = ({imageAlbum}) => {
     const [currAlbumInfo, setCurrAlbumInfo] = useState({})
     useEffect(() => {
         setCurrAlbumInfo(imageAlbums[imageAlbum])
-    }, [])
-
+    }, [imageAlbum])
     if(isEmpty(currAlbumInfo)){
         return(
-            <div>Loading...</div>
+            <div className={classes.image_page_wrapper}>
+                <Spinner animation="border" />
+            </div>
         )
     }
     
@@ -45,10 +52,18 @@ const ImagePage = ({imageAlbum}) => {
                     
                     <div className={classes.gallery_image_slider}>
                         {
-                            currAlbumInfo.images.map((image) => {
+                            currAlbumInfo.images.map((image, index) => {
                                 return(
-                                    <div className={classes.img_x}>
-                                        <img className={classes.img_y} src={image} alt="" srcset="" />
+                                    <div key={index} className={classes.img_x}>
+                                        <Image 
+                                            className={classes.img_y} 
+                                            src={image} 
+                                            alt=""
+                                            width={0}
+                                            height={0}
+                                            sizes="100vw"
+                                            style={imageStyle}
+                                             />
                                     </div>
                                 )
                             })

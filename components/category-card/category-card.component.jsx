@@ -15,6 +15,7 @@ const CategoryCard = () => {
                                 src={img} alt="" 
                                 width={2000} 
                                 height={1000}
+                                priority
                             />
                             <div className={classes.overlay}>
                                 <div className={classes.det_gradient}>
