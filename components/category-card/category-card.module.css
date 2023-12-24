@@ -25,22 +25,35 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border-image: fill 0 linear-gradient(to left, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
-
     display: flex;
     justify-content: center;
     align-items: center;
     /* border-radius: 5px; */
 }
 
+.alternate_even{
+    border-image: fill 0 linear-gradient(to left, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.alternate_odd{
+    border-image: fill 0 linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
 .det_gradient{
     width: 50%;
     height: 100%;
-    margin-left: 50%;
     color: white;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     /* border-radius: 5px; */
+}
+
+.alternate_det_gradient_even{
+    margin-left: 50%;
+}
+.alternate_det_gradient_odd{
+    margin-right: 50%;
 }
 
 @media (max-width : 850px){

@@ -22,7 +22,7 @@ export const galleryPreviewImages = [
         type : "bibahoscapes",
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697632619/Photography%20Website/logos/BibahoScapes_gzla2m_11zon_x2469h.png",
         images : [
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697560175/Photography%20Website/Gallery-Preview/bibaho-scapes/test7_wqjgvr_1_ocdoho.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703415229/Photography%20Website/Gallery-Preview/bibaho-scapes/RAJ_0134_ejzl3m.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697560165/Photography%20Website/Gallery-Preview/bibaho-scapes/test9_vlln3x_1_dur31q.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697560170/Photography%20Website/Gallery-Preview/bibaho-scapes/test10_rnlfjf_1_krs3jf.jpg"
         ]
@@ -44,7 +44,7 @@ export const galleryPreviewImages = [
         images : [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227808/Photography%20Website/Gallery-Preview/the-brandstand/test14_jquemd.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227907/Photography%20Website/Gallery-Preview/the-brandstand/test15_x8up3s.jpg",
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227906/Photography%20Website/Gallery-Preview/the-brandstand/test16_rvbaen.jpg"
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703415403/Photography%20Website/Gallery-Preview/bibaho-scapes/ADP_7914_1_bziwyz.jpg"
         ]
     },
     {

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400&display=swap');
+
 .wrapper{
     min-height: 650px;
     height: fit-content;
@@ -9,3 +13,9 @@
     right : 20px;
     z-index: 9999;
   }
+
+.body{
+    font-family: 'Source Sans 3', sans-serif;
+    /* font-family: 'Public Sans', sans-serif; */
+    /* font-family: 'PT Sans', sans-serif; */
+}

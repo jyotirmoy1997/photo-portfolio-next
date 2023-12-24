@@ -42,7 +42,7 @@ const ImagePage = ({imageAlbum}) => {
                             </div>
                             <div className={classes.image_content}>
                                 <h5>Links</h5>
-                                <div className={classes.image_desc_container_link}>
+                                <div className={classes.image_desc_link_container}>
                                     <Image src={fblogo.src} alt="" width={30} height={30} />
                                     <Image src={instalogo.src} alt="" width={30} height={30} />
                                 </div>
@@ -61,8 +61,10 @@ const ImagePage = ({imageAlbum}) => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="100vw"
+                                            sizes="@media (max-width : 550px) 100vw;
+                                            @media (max-width : 850px) 80vw"
                                             style={imageStyle}
+                                            priority
                                              />
                                     </div>
                                 )

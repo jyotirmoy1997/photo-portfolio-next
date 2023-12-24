@@ -42,6 +42,7 @@
 .footer_contact_items{
     display: flex;
     justify-content:flex-start;
+    align-items: center;
 }
 
 .footer_contact_items p{

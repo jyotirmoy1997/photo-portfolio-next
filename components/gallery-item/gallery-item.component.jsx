@@ -15,7 +15,7 @@ const GalleryItem = ({logo, imageArray, segment}) => {
     useEffect(() => {
         if(currentAlbum !== '')
             redirect(`/${segment}/${currentAlbum}`, 'push')
-    }, [currentAlbum])
+    }, [currentAlbum, segment])
     const toImages = (id) => {
         setCurrentAlbum(id)
     }

@@ -22,14 +22,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 1.35em;
 }
 
 .image_desc_link_container{
     display: flex;
-    /* background-color: chocolate; */
     width: 25%;
     gap: 0.5em;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 
@@ -69,7 +69,7 @@
     height: 100%;
 } */
 
-@media (max-width : 850px){
+@media (max-width : 700px){
     .image_page_wrapper{
         height: 900px;
         flex-direction: column;
@@ -111,7 +111,7 @@
         margin-top: 1em;
         margin-left: 0.25em;
         margin-right: 0.25em;
-        background-color: chocolate;
+
         display: flex;
         justify-content: center;
         align-items: center;
