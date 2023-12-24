@@ -17,7 +17,9 @@ const CategoryCard = () => {
                                 src={img} alt="" 
                                 width={2000} 
                                 height={1000}
-                                priority
+                                quality={100} 
+                                priority 
+                                sizes="100vw"
                             />
                             <div 
                                 className={`${classes.overlay} 

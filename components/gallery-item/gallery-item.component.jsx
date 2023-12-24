@@ -28,6 +28,9 @@ const GalleryItem = ({logo, imageArray, segment}) => {
                     height={7680}
                     width={4320}
                     style={imageStyle}
+                    quality={100} 
+                    priority 
+                    sizes="100vw"
                 />
             </div>
             <div className={classes.image_container}>

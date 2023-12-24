@@ -61,10 +61,10 @@ const ImagePage = ({imageAlbum}) => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="@media (max-width : 550px) 100vw;
-                                            @media (max-width : 850px) 80vw"
+                                            sizes="80vw"
                                             style={imageStyle}
                                             priority
+                                            quality={80}
                                              />
                                     </div>
                                 )

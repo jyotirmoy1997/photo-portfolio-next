@@ -10,6 +10,9 @@ const CoverPage = () => {
                 src={coverLink} alt="cover-page"
                 width={7087}
                 height={2362}
+                quality={100} 
+                priority 
+                sizes="100vw"
             />
         </div>
     )

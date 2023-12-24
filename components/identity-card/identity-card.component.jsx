@@ -16,7 +16,15 @@ const IdentityCard = ({imageURL, authName}) => {
     return(
         <div className={classes.identity_card}>
             <div className={classes.identity_card_img_wrapper}>
-                <Image src={imageURL} alt="" height={350} width={350} style={imgStyles} />
+                <Image 
+                    src={imageURL} 
+                    alt="" 
+                    height={350} 
+                    width={350} 
+                    style={imgStyles} 
+                    quality={100} 
+                    priority 
+                    sizes="100vw" />
             </div>
             <IDAbout name={authName} aboutString={TestString} />
         </div>
