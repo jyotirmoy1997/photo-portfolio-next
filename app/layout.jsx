@@ -21,7 +21,9 @@ export default function RootLayout({ children }) {
         <div className={classes.wrapper}>
           {children}
           <a href='https://wa.me/917865003343' target='_blank'>
-            <Image className={classes.whatsappChat} alt='whatsapp-icon' src={whatsAppLogo.src} height={50} width={50} />
+            <div className={classes.whatsappChat}>
+              <Image alt='whatsapp-icon' src={whatsAppLogo.src} height={50} width={50} />
+            </div>
           </a>
         </div>
         <Footer/>

@@ -7,6 +7,7 @@ import classes from "./images-page.module.css"
 import Image from "next/image"
 import { isEmpty } from "@/utils/utils"
 import { Spinner } from "react-bootstrap"
+import { notFound } from "next/navigation"
 
 const imageStyle = {
     height: '100%',
@@ -18,6 +19,7 @@ const ImagePage = ({imageAlbum}) => {
     useEffect(() => {
         setCurrAlbumInfo(imageAlbums[imageAlbum])
     }, [imageAlbum])
+
     if(isEmpty(currAlbumInfo)){
         return(
             <div className={classes.image_page_wrapper}>
@@ -25,7 +27,9 @@ const ImagePage = ({imageAlbum}) => {
             </div>
         )
     }
-    
+    else if(currAlbumInfo === undefined){
+        notFound()
+    }
     else{
         return(
             <>  
@@ -61,10 +65,10 @@ const ImagePage = ({imageAlbum}) => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="80vw"
+                                            sizes="100vw"
                                             style={imageStyle}
                                             priority
-                                            quality={80}
+                                            quality={100}
                                              />
                                     </div>
                                 )

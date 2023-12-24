@@ -7,6 +7,7 @@ import YTVideo from "../yt-video/yt-video.component"
 import { videoAlbums } from "@/assets/imageLinks"
 import { isEmpty } from "@/utils/utils"
 import Image from "next/image"
+import { Spinner } from "react-bootstrap"
 
 
 
@@ -18,7 +19,9 @@ const VideoPage = ({videoAlbum}) => {
 
     if(isEmpty(currAlbumInfo)){
         return(
-            <div>Loading...</div>
+            <div>
+                
+            </div>
         )
     }
     return(

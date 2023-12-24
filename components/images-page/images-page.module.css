@@ -13,6 +13,7 @@
     border-radius: 5px;
     height: 95%;
     margin-top: 1.5em;
+    font-size: 1.35em;
 }
 
 .image_desc{
@@ -22,7 +23,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 1.35em;
 }
 
 .image_desc_link_container{
@@ -71,22 +71,18 @@
 
 @media (max-width : 700px){
     .image_page_wrapper{
-        height: 900px;
+        height: 1000px;
         flex-direction: column;
-        /* background-color: aqua; */
         justify-content: center;
         align-items: center;
         gap: 30px;
     }
     .image_desc_wrapper{
-        background-color: rgba(0, 52, 102, 0.9);
-        width: 93%;
+        width: 90%;
         margin: 0 auto;
+        height: 500px;
     }
     
-    .image_desc{
-        width: 85%;
-    }
     
     /* .image_desc_link_container{
         display: flex;
@@ -98,7 +94,7 @@
     
     .gallery_image_slider{
         height: auto;
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
         overflow-x: hidden;
         overflow-y: auto;
