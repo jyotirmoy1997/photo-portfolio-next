@@ -4,19 +4,17 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0 auto;
+    text-align: center;
 }
 
 .id_about_logos{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 5px;
 }
 
 @media (max-width : 850px){
     .id_about{
         width: 90%;
-    }
-    .id_about_logos{
-        justify-content: center;
     }
 }

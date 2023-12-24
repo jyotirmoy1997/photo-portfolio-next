@@ -4,6 +4,12 @@ import Footer from '@/components/footer/footer.component'
 import classes from "./layout.module.css"
 import Image from 'next/image'
 import whatsAppLogo from "@/assets/logos/whatsapp.png"
+// import { Source_Sans_3 } from 'next/font/google'
+
+// const sourceSans3 = Source_Sans_3({
+//   subsets: ['latin'],
+//   display: 'swap',
+// })
 
 export const metadata = {
   title: 'D&D Productions',

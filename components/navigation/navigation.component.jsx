@@ -7,6 +7,7 @@ import { GrClose } from 'react-icons/gr';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import classes from "./navigation.module.css"
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 
 const Navigation = () => {
@@ -14,6 +15,7 @@ const Navigation = () => {
     const navRef = useRef()
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
     const [showLinks, setShowLinks] = useState(false)
+    const currentPage = usePathname()
     const toggleDropdown = () => {
         if(isDropdownOpen){
             dropdownRef.current.classList.remove(classes.dropdown_hide)
@@ -27,6 +29,9 @@ const Navigation = () => {
     const showNavBar = () => {
         navRef.current.classList.toggle(classes.responsive_nav)
     }
+    const activeClassHome = currentPage === "/" ? classes.active : undefined
+    const activeClassAbout = currentPage === "/about" ? classes.active : undefined
+    const activeClassGallery = currentPage === "/gallery" ? classes.active : undefined
     return(
         <Fragment>
             <div className={classes.navigation}>
@@ -37,13 +42,13 @@ const Navigation = () => {
                 </Link>
                 <div ref={navRef} className={classes.nav_links_container}>
                     <Link onClick={showNavBar} className={classes.nav_link} href="/">
-                        Home
+                        <div className={activeClassHome}>Home</div>
                     </Link>
-                    <Link onClick={showNavBar} className={classes.nav_link} href="/about">
-                        About
+                    <Link onClick={showNavBar} className={`${classes.nav_link}`} href="/about">
+                        <div className={`${activeClassAbout}`}>About</div>
                     </Link>
-                    <Link onClick={showNavBar} className={classes.nav_link} href="/gallery">
-                        Gallery
+                    <Link onClick={showNavBar} className={`${classes.nav_link}`} href="/gallery">
+                    <div className={`${activeClassGallery}`}>Gallery</div>
                     </Link>
                     <div onClick={() => toggleDropdown()} className={`${classes.nav_link} ${classes.dropdown_wrapper}`}>
                         <span>Services</span><span><IoMdArrowDropdown/></span>
