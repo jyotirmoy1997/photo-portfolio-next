@@ -19,9 +19,9 @@ const VideoPage = ({videoAlbum}) => {
 
     if(isEmpty(currAlbumInfo)){
         return(
-            <div>
-                
-            </div>
+            <div className={classes.video_page_wrapper}>
+            <Spinner animation="border" />
+        </div>
         )
     }
     return(
