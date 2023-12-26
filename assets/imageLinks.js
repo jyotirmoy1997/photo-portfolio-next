@@ -40,7 +40,7 @@ export const galleryPreviewImages = [
     {
         id : 3,
         type : "brandstand",
-        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227361/Photography%20Website/logos/TheBrandStand_puyfyq.jpg",
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703594586/Photography%20Website/logos/TheBrandStand_szaz9r.png",
         images : [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227808/Photography%20Website/Gallery-Preview/the-brandstand/test14_jquemd.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227907/Photography%20Website/Gallery-Preview/the-brandstand/test15_x8up3s.jpg",
@@ -268,6 +268,22 @@ export const imageAlbums = {
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703581376/Photography%20Website/ALBUM/PiexelPerfect/ICHHEDANA/Pixel_Perfect_-BY_D_D_PRODUCTIONS_12_fobvje.jpg"
         ]
     },
+    "watch" : {
+        text : "WATCH PHOTOGRAPHY",
+        category : "brand Photography",
+        images : [
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593079/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/DSC_0333_yyrqry_xdufay.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593073/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/ADP_5805_ayzdfp_whbgti.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593091/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/ADP_4618_jikfjt_izsivk.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593088/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/ADP_4617_fkwpl3_hjw3p8.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593068/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/ADP_4666_gnubvb_tnpno4.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593065/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/ADP_4648_sqcchc_qbubf1.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593071/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/ADP_5799_madgbk_muqgf6.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593082/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/DSC_0349_sv3meb_ipjgky.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593085/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/RAJ_00061_copy_dxmwhk_g8wmfe.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593063/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/ADP_4637_quvela_zswg8a.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -282,6 +298,10 @@ export const videoAlbums = {
     "pasoori" : {
         text : "PASOORI",
         link : "https://www.youtube.com/embed/q1FoEyb9wwA?si=PQu1XlV6USJFn2te"
+    },
+    "shyamamaa" : {
+        text : "SHYAMA MAA",
+        link : "https://www.youtube.com/embed/szCq8IGORRk?si=lYGXhxamXWauZc8Y"
     }
 }
 
@@ -407,13 +427,24 @@ export const PPThumbnails = [
     },
 ]
 
+export const BSThumbnails = [
+    {
+        id : 1,
+        text : "WATCH",
+        id : "watch",
+        category : "Brand Photography",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593260/Photography%20Website/ALBUM/THUMB/TheBrandStand/Watch/DSC_0349_sv3meb_ipjgky_gmhk4b.jpg",
+        
+    },
+]
+
 export const MPThumbnails = [   
     {
         id : 1,
         text : "TAPA TINI",
         id : "tapatini",
         category : "Videography",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703058379/Photography%20Website/ALBUM/thumbnails/sddefault_1_rkkpha.jpg",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703595067/Photography%20Website/ALBUM/THUMB/MediaPedia/sddefault_1_rkkpha_hsbe9y.jpg",
         
     },
     {
@@ -421,13 +452,20 @@ export const MPThumbnails = [
         text : "AGOMONI",
         id : "agomoni",
         category : "Videography",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524458/Photography%20Website/Gallery-Preview/media-pedia/Agomini_Thumbnail_ogxs9t.jpg",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703595067/Photography%20Website/ALBUM/THUMB/MediaPedia/Agomini_Thumbnail_ogxs9t_d4hkxz.jpg",
     },
     {
         id : 3,
         text : "PASOORI",
         id : "pasoori",
         category : "Videography",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703058380/Photography%20Website/ALBUM/thumbnails/sddefault_ipswjz.jpg",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703595068/Photography%20Website/ALBUM/THUMB/MediaPedia/sddefault_ipswjz_i1abqr.jpg",
+    },
+    {
+        id : 4,
+        text : "SHYAMA MAA",
+        id : "shyamamaa",
+        category : "Videography",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703595069/Photography%20Website/ALBUM/THUMB/MediaPedia/shyama_maa_gaos2e.jpg",
     }
 ]
