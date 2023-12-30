@@ -19,7 +19,7 @@ const CarouselComponent = () => {
                 if(index === carouselImages.length - 1)
                     return 0
 
-                    return index+1;
+                return index+1;
             })
         }, 3000)
 

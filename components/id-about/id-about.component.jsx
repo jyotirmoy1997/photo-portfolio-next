@@ -1,7 +1,7 @@
 import classes from "./id-about.module.css"
 import Image from "next/image"
-import fbLogo from "@/assets/logos/facebook.png"
-import instaLogo from "@/assets/logos/instagram.png"
+import fbLogo from "@/public/logos/facebook.png"
+import instaLogo from "@/public/logos/instagram.png"
 
 const IDAbout = ({name, aboutString, socialHandles}) => {
     return (

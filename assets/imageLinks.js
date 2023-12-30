@@ -254,6 +254,7 @@ export const imageAlbums = {
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703581395/Photography%20Website/ALBUM/PiexelPerfect/ICHHEDANA/Pixel_Perfect_-BY_D_D_PRODUCTIONS_6_zialgy.jpg",
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703581391/Photography%20Website/ALBUM/PiexelPerfect/ICHHEDANA/Pixel_Perfect_-BY_D_D_PRODUCTIONS_3_isjjmh.jpg",
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703581390/Photography%20Website/ALBUM/PiexelPerfect/ICHHEDANA/Pixel_Perfect_-BY_D_D_PRODUCTIONS_9_ssbjby.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703581485/Photography%20Website/ALBUM/PiexelPerfect/ICHHEDANA/Pixel_Perfect_-BY_D_D_PRODUCTIONS_1_fxmo4o.jpg",
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703581388/Photography%20Website/ALBUM/PiexelPerfect/ICHHEDANA/Pixel_Perfect_-BY_D_D_PRODUCTIONS_8_ebvtru.jpg",
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703581388/Photography%20Website/ALBUM/PiexelPerfect/ICHHEDANA/Pixel_Perfect_-BY_D_D_PRODUCTIONS_7_i9borf.jpg",
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703581385/Photography%20Website/ALBUM/PiexelPerfect/ICHHEDANA/Pixel_Perfect_-BY_D_D_PRODUCTIONS_5_lvz1lz.jpg", 
@@ -270,7 +271,7 @@ export const imageAlbums = {
     },
     "watch" : {
         text : "WATCH PHOTOGRAPHY",
-        category : "brand Photography",
+        category : "Brand Photography",
         images : [
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593079/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/DSC_0333_yyrqry_xdufay.jpg",
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593073/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/ADP_5805_ayzdfp_whbgti.jpg",
@@ -282,6 +283,17 @@ export const imageAlbums = {
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593082/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/DSC_0349_sv3meb_ipjgky.jpg",
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593085/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/RAJ_00061_copy_dxmwhk_g8wmfe.jpg",
            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593063/Photography%20Website/ALBUM/TheBrandStand/WatchPhotography/ADP_4637_quvela_zswg8a.jpg"
+        ]
+    },
+    "sreyashibridal" : {
+        text : "SREYOSHI",
+        category : "Bridal Photography",
+        images : [
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586392/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Shreyashi/ADP_7740_qgsuvj.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586316/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Shreyashi/ADP_7705_wv6riz.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586281/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Shreyashi/ADP_7724_pizk8n.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585488/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Shreyashi/ADP_7719_wvtlpo.jpg",
+           "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586392/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Shreyashi/ADP_7731_cvzhqx.jpg",
         ]
     },
 }
@@ -315,7 +327,6 @@ export const BBSThumbnails = [
         id : 1,
         text : "Shruti and Saptarshi's Wedding",
         id : "shrutiandsaptarshi",
-        category : "Wedding Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702992839/Photography%20Website/ALBUM/thumbnails/img_b2ghbk.jpg",
         
     },
@@ -323,14 +334,12 @@ export const BBSThumbnails = [
         id : 2,
         text : "Gouravmoy and Priyanka's Wedding",
         id : "gouravmoyandpriyanka",
-        category : "Wedding Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703588075/Photography%20Website/ALBUM/THUMB/BibahoScapes/GouravmoyPriyanka/ADP_1247_copy_kvaqoq.jpg",
     },
     {
         id : 3,
         text : "Koushik & Priyanka's Pre-Wedding",
         id : "koushikpriyanka",
-        category : "Pre-Wedding Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587558/Photography%20Website/ALBUM/THUMB/BibahoScapes/KashiPriyanka/_ADP3641_uax6xk_vkiu2n.jpg",
     },
     
@@ -338,28 +347,24 @@ export const BBSThumbnails = [
         id : 4,
         text : "Anamika & Papai's Wedding",
         id : "anamikapapai",
-        category : "Wedding Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587062/Photography%20Website/ALBUM/THUMB/BibahoScapes/AnamikaPapai/_ADP3258_owa8hw_c2du0r.jpg",
     },
     {
         id : 5,
         text : "Jayati's Wedding",
         id : "jayati",
-        category : "Wedding Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702992839/Photography%20Website/ALBUM/thumbnails/img3_rjzrs4.jpg",
     },
     {
         id : 6,
         text : "Arnob & Arpita's Wedding",
         id : "arnobarpita",
-        category : "Wedding Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587997/Photography%20Website/ALBUM/THUMB/BibahoScapes/ArnobArpita/_DSC0485_EDITED_yqp4ma.jpg",
     },
     {
         id : 7,
         text : "Rector & Jaya's Wedding",
         id : "rectorjaya",
-        category : "Wedding Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703588490/Photography%20Website/ALBUM/THUMB/BibahoScapes/RectorJaya/_DSC0240_copy_jsv6qp_upz44k.jpg",
     },
 ]
@@ -371,7 +376,6 @@ export const PPThumbnails = [
         id : 1,
         text : "Bridal - Arpita",
         id : "arpitabridal",
-        category : "Bridal Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703589066/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/Arpita/ADP_3294_cpw9dr.jpg",
         
     },
@@ -379,29 +383,32 @@ export const PPThumbnails = [
         id : 2,
         text : "Bridal - Anisha",
         id : "anishabridal",
-        category : "Bridal Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703589469/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/Anisha/ADP_7641_x5ba0c.jpg",
     },
     {
         id : 3,
         text : "Bridal - Alokita",
         id : "alokitabridal",
-        category : "Bridal Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703589497/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/Alokita%20Sen/ADP_7018_xgdkdj.jpg",
     },
     {
         id : 4,
         text : "Bridal - Sukanya",
         id : "sukanyabridal",
-        category : "Bridal Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703589529/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/Sukanya/ADP_6046_ah1kfx.jpg",
     },
     {
         id : 5,
         text : "Bridal - Raina",
         id : "rainabridal",
-        category : "Bridal Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703589790/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/RAINA/ADP_6937_jsvddb.jpg",
+    },
+
+    {
+        id : 9,
+        text : "Bridal - Sreyashi",
+        id : "sreyashibridal",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703753984/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/Shreyasi/Untitled-1_font_ld3qeh.jpg",
     },
 
 
@@ -410,14 +417,12 @@ export const PPThumbnails = [
         id : 6,
         text : "Conceptual - Udisha",
         id : "udishaconceptual",
-        category : "Conceptual Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703590797/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/Udisha/ADP_9446_snpqt5_rcnlaq.jpg",
     },
     {
         id : 7,
         text : "Conceptual - Tannesha",
         id : "tanneshaconceptual",
-        category : "Conceptual Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703591133/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/Tannesha/ADP_3652_m4ux72_rpsgma.jpg",
     },
 
@@ -426,7 +431,6 @@ export const PPThumbnails = [
         id : 8,
         text : "Ichchedana",
         id : "ichchedana",
-        category : "Fashion Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703591598/Photography%20Website/ALBUM/THUMB/PixelPerfect/Ichchedana/Pixel_Perfect_-BY_D_D_PRODUCTIONS_1_fxmo4o_x26pr0.jpg",
     },
 ]
@@ -436,7 +440,6 @@ export const BSThumbnails = [
         id : 1,
         text : "WATCH PHOTOGRAPHY",
         id : "watch",
-        category : "Brand Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593260/Photography%20Website/ALBUM/THUMB/TheBrandStand/Watch/DSC_0349_sv3meb_ipjgky_gmhk4b.jpg",
         
     },
@@ -447,7 +450,6 @@ export const MPThumbnails = [
         id : 1,
         text : "TAPA TINI",
         id : "tapatini",
-        category : "Videography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703595067/Photography%20Website/ALBUM/THUMB/MediaPedia/sddefault_1_rkkpha_hsbe9y.jpg",
         
     },
@@ -455,28 +457,24 @@ export const MPThumbnails = [
         id : 2,
         text : "AGOMONI",
         id : "agomoni",
-        category : "Videography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703595067/Photography%20Website/ALBUM/THUMB/MediaPedia/Agomini_Thumbnail_ogxs9t_d4hkxz.jpg",
     },
     {
         id : 3,
         text : "PASOORI",
         id : "pasoori",
-        category : "Videography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703595068/Photography%20Website/ALBUM/THUMB/MediaPedia/sddefault_ipswjz_i1abqr.jpg",
     },
     {
         id : 4,
         text : "SHYAMA MAA",
         id : "shyamamaa",
-        category : "Videography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703595069/Photography%20Website/ALBUM/THUMB/MediaPedia/shyama_maa_gaos2e.jpg",
     },
     {
         id : 5,
         text : "LEHRA DO",
         id : "lehrado",
-        category : "Videography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703604570/Photography%20Website/ALBUM/THUMB/MediaPedia/RAJ_0924_1_dlrxus.jpg",
     }
 ]

@@ -3,7 +3,7 @@ import Navigation from '@/components/navigation/navigation.component'
 import Footer from '@/components/footer/footer.component'
 import classes from "./layout.module.css"
 import Image from 'next/image'
-import whatsAppLogo from "@/assets/logos/whatsapp.png"
+import whatsAppLogo from "@/public/logos/whatsapp.png"
 import { PT_Sans } from "next/font/google"
 
 const PTSans = PT_Sans({

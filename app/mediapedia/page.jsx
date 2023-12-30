@@ -1,6 +1,6 @@
 import GalleryItem from "@/components/gallery-item/gallery-item.component"
 import { MPThumbnails } from "@/assets/imageLinks"
-import mpLogo from "@/assets/logos/MediaPedia.png"
+import mpLogo from "@/public/logos/MediaPedia.png"
 
 export const metadata = {
     title: 'Media Pedia',

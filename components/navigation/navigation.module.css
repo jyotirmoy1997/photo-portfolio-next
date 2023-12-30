@@ -65,6 +65,7 @@
 }
 .dropdown_wrapper{
     cursor: pointer;
+
 }
 
 .dropdown_container{
@@ -92,6 +93,7 @@
     text-decoration: underline;
     text-underline-offset: 10px;
 }
+
 
 @media (max-width : 1240px){
     .nav_links_container{

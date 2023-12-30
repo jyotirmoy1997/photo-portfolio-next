@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link"
 import { useState, useRef, Fragment } from "react"
-import logo from "@/assets/logos/MainLogo.png"
+import logo from "@/public/logos/MainLogo.png"
 import { IoMdArrowDropdown } from "react-icons/io";
 import { GrClose } from 'react-icons/gr';
 import { GiHamburgerMenu } from 'react-icons/gi';

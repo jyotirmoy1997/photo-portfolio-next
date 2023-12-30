@@ -8,7 +8,9 @@
 
 .image_container{
     height: auto;
-    width: 80%;
+    
+    max-width: 1300px;
+    /* width: 80%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

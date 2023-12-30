@@ -1,4 +1,4 @@
-import bsLogo from "@/assets/logos/TheBrandstand.png"
+import bsLogo from "@/public/logos/TheBrandstand.png"
 import { BSThumbnails } from "@/assets/imageLinks"
 import GalleryItem from "@/components/gallery-item/gallery-item.component"
 
