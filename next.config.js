@@ -9,8 +9,8 @@ const nextConfig = {
             pathname: '/dst1eqcmo/**',
           },
         ],
-        // unoptimized : true
       },
+      // optimizeFonts: false,
 }
 
 module.exports = nextConfig

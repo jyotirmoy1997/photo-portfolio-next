@@ -4,6 +4,13 @@ import Footer from '@/components/footer/footer.component'
 import classes from "./layout.module.css"
 import Image from 'next/image'
 import whatsAppLogo from "@/assets/logos/whatsapp.png"
+import { PT_Sans } from "next/font/google"
+
+const PTSans = PT_Sans({
+  weight: [ "400", "700" ],
+  subsets: [ "latin" ],
+  display : "swap"
+});
 
 export const metadata = {
   title: 'D&D Productions',
@@ -12,11 +19,9 @@ export const metadata = {
 
 
 export default function RootLayout({ children }) {
-  if(!children)
-    console.log("bug")
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className={classes.body}>
+      <body suppressHydrationWarning={true} className={PTSans.className}>
         <Navigation/>
         <div className={classes.wrapper}>
           {children}

@@ -6,13 +6,19 @@ import { imageAlbums } from "@/assets/imageLinks.js"
 import classes from "./images-page.module.css"
 import Image from "next/image"
 import { isEmpty } from "@/utils/utils"
-import { Spinner } from "react-bootstrap"
+import { MoonLoader } from "react-spinners"
 import { notFound } from "next/navigation"
 
 const imageStyle = {
     height: '100%',
     width : 'auto'
 }
+
+const override = {
+    display: "block",
+    margin: "0 auto",
+    borderColor: "red",
+  };
 
 const ImagePage = ({imageAlbum}) => {
     const [currAlbumInfo, setCurrAlbumInfo] = useState({})
@@ -23,7 +29,14 @@ const ImagePage = ({imageAlbum}) => {
     if(isEmpty(currAlbumInfo)){
         return(
             <div className={classes.image_page_wrapper}>
-                <Spinner animation="border" />
+                <MoonLoader
+                    color="Grey"
+                    loading
+                    cssOverride={override}
+                    size={150}
+                    aria-label="Loading Spinner"
+                    data-testid="loader"
+                />
             </div>
         )
     }

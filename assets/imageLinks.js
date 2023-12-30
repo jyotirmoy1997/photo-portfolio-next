@@ -302,6 +302,10 @@ export const videoAlbums = {
     "shyamamaa" : {
         text : "SHYAMA MAA",
         link : "https://www.youtube.com/embed/szCq8IGORRk?si=lYGXhxamXWauZc8Y"
+    },
+    "lehrado" : {
+        text : "LEHRA DO",
+        link : "https://www.youtube.com/embed/pTW5uVbsqW4?si=DfANK2qmGLPYapo5"
     }
 }
 
@@ -430,7 +434,7 @@ export const PPThumbnails = [
 export const BSThumbnails = [
     {
         id : 1,
-        text : "WATCH",
+        text : "WATCH PHOTOGRAPHY",
         id : "watch",
         category : "Brand Photography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593260/Photography%20Website/ALBUM/THUMB/TheBrandStand/Watch/DSC_0349_sv3meb_ipjgky_gmhk4b.jpg",
@@ -467,5 +471,12 @@ export const MPThumbnails = [
         id : "shyamamaa",
         category : "Videography",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703595069/Photography%20Website/ALBUM/THUMB/MediaPedia/shyama_maa_gaos2e.jpg",
+    },
+    {
+        id : 5,
+        text : "LEHRA DO",
+        id : "lehrado",
+        category : "Videography",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703604570/Photography%20Website/ALBUM/THUMB/MediaPedia/RAJ_0924_1_dlrxus.jpg",
     }
 ]

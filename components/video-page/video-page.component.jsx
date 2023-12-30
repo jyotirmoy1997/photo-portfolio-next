@@ -7,7 +7,13 @@ import YTVideo from "../yt-video/yt-video.component"
 import { videoAlbums } from "@/assets/imageLinks"
 import { isEmpty } from "@/utils/utils"
 import Image from "next/image"
-import { Spinner } from "react-bootstrap"
+import { MoonLoader } from "react-spinners"
+
+const override = {
+    display: "block",
+    margin: "0 auto",
+    borderColor: "red",
+  };
 
 
 
@@ -19,8 +25,15 @@ const VideoPage = ({videoAlbum}) => {
 
     if(isEmpty(currAlbumInfo)){
         return(
-            <div className={classes.video_page_wrapper}>
-            <Spinner animation="border" />
+        <div className={classes.video_page_wrapper}>
+            <MoonLoader
+                    color="Grey"
+                    loading
+                    cssOverride={override}
+                    size={150}
+                    aria-label="Loading Spinner"
+                    data-testid="loader"
+                />
         </div>
         )
     }

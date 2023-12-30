@@ -1,30 +1,80 @@
 'use client'
 
-import Carousel from 'react-bootstrap/Carousel';
-import { carouselImages } from '@/assets/imageLinks';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from "./carousel.module.css"
+import { useState, useEffect } from "react"
+import { carouselImages } from "@/assets/imageLinks"
+import Image from "next/image"
+import { IoIosArrowBack } from "react-icons/io"
+import { IoIosArrowForward } from "react-icons/io";
+import { GoHorizontalRule } from "react-icons/go";
 
-const CarouselList = carouselImages.map((img, index) => {
-    return(
-        <Carousel.Item key={index}>
-            <img
-                className="d-block w-100"
-                src={img}
-                alt="First slide"
-            />
-        </Carousel.Item>
-    )
-})
+
 
 const CarouselComponent = () => {
-    return (
-        <div className={classes.carousel_container}>
-            <Carousel interval={3000} pause={true}>
-                {CarouselList}
-            </Carousel>
-        </div>
-    );
-  }
+    const [imageIndex, setImageImdex]= useState(0)
 
-export default CarouselComponent;
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setImageImdex(index => {
+                if(index === carouselImages.length - 1)
+                    return 0
+
+                    return index+1;
+            })
+        }, 3000)
+
+        return () => clearInterval(interval)
+    }, [])
+    
+    const showPrevImage = () => {
+        setImageImdex(index => {
+            if(index === 0)
+                return carouselImages.length - 1
+        
+            return index-1;
+        })
+    }
+    const showNextImage = () => {
+        setImageImdex(index => {
+            if(index === carouselImages.length - 1)
+                return 0
+        
+            return index+1;
+        })
+    }
+    return(
+        <div className={classes.carousel_wrapper}>
+            <div className={classes.carousel_container}>
+                {
+                    carouselImages.map((imgURL, index) => 
+                    <Image 
+                        key={index} 
+                        className={classes.carousel_image} 
+                        src={imgURL} width={5568} 
+                        height={2784} alt="" 
+                        priority style={{translate : `${-100 * imageIndex}%`}} 
+                    />)
+                }
+            </div>
+            <button className={classes.image_slider_btn} style={{left : 0}} onClick={showPrevImage}>
+                <IoIosArrowBack />
+            </button>
+            <button className={classes.image_slider_btn} style={{right : 0}} onClick={showNextImage}>
+                <IoIosArrowForward />
+            </button>
+            <div className={classes.image_slider_marker}>
+                {
+                    carouselImages.map((_, index) => (
+                    <button 
+                        key={index} 
+                        className={`${classes.image_slider_marker_btn} ${index === imageIndex ? classes.image_slider_marker_btn_curr : undefined}`} 
+                        onClick={() => setImageImdex(index)}>
+                        <GoHorizontalRule />
+                    </button>))
+                }
+            </div>
+        </div>
+    )
+}
+
+export default CarouselComponent
