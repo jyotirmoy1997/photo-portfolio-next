@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from "react"
-import fblogo from "@/assets/logos/facebook.png"
-import instalogo from "@/assets/logos/instagram.png"
+import fblogo from "@/public/logos/facebook.png"
+import instalogo from "@/public/logos/instagram.png"
 import { imageAlbums } from "@/assets/imageLinks.js"
 import classes from "./images-page.module.css"
 import Image from "next/image"
