@@ -512,6 +512,134 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704651102/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/Style%20Maniac/ADP_4521_ijq0vc.jpg",
         ]
     },
+    "prayashibridal" : {
+        text : "PRAYASHI",
+        category : "Bridal Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704714638/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Prayashi/ADP_0756jugy_1_e3qt8l.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704714638/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Prayashi/ADP_0786_1_onspmg.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585272/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Prayashi/ADP_0829_nfrwv6.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585292/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Prayashi/ADP_0777_usljmc.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585273/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Prayashi/ADP_0789_qfhy4x.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585292/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Prayashi/ADP_0768_nh2bvf.jpg"
+        ]
+    },
+    "soumibridal" : {
+        text : "SOUMI",
+        category : "Bridal Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585492/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Soumi/ADP_3823_q0ftn4.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585493/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Soumi/ADP_3805_qfewgh.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585762/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Soumi/ADP_3827_xlgfv8.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703592171/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Soumi/ADP_3792_khaufy.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703592171/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Soumi/ADP_3792_khaufy.jpg"
+        ]
+    },
+    "rajanyaconceptual" : {
+        text : "RAJANYA",
+        category : "Conceptual Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704714862/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/RAJANYA/ADP_6696_1_xhu2hw.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586898/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/RAJANYA/ADP_6647_fyh2wz.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586943/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/RAJANYA/ADP_6662_oag408.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586913/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/RAJANYA/ADP_6660_g4un0r.jpg"
+        ]
+    },
+    "rupmanjaryconceptual" : {
+        text : "RUPMANJARY",
+        category : "Conceptual Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586906/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/RUPAMANJARy/ADP_1134_copy_yfbkeh.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586925/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/RUPAMANJARy/ADP_1169_copy_cikprw.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586877/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/RUPAMANJARy/ADP_1140_copy_jyuqwb.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587226/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/RUPAMANJARy/ADP_1103_copy_f1meye.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587040/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/RUPAMANJARy/ADP_1113_copy_ww3tmd.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587224/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/RUPAMANJARy/ADP_1111_z2j8lc.jpg"
+        ]
+    },
+    "somraggyconceptual" : {
+        text : "SOMRAGGY",
+        category : "Conceptual Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587222/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/SOMRAGGY/ADP_5742_bgw7un.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586920/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/SOMRAGGY/ADP_5730_ozyjjv.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586881/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/SOMRAGGY/ADP_5769_lined_s52dmp.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587043/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/SOMRAGGY/ADP_5734_lined_dzpnfo.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587079/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/SOMRAGGY/ADP_5748_j7r146.jpg"
+        ]
+    },
+    "tujaconceptual" : {
+        text : "TUJA",
+        category : "Conceptual Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586918/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/TUJA/ADP_7129_nlczqw.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586918/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/TUJA/ADP_7129_nlczqw.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587049/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/TUJA/ADP_7093_bickhp.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587031/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/TUJA/ADP_7124_hoxaq0.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587233/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/TUJA/ADP_7121_ohhg3o.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587068/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/TUJA/ADP_7100_t9vrm1.jpg",
+            
+        ]
+    },
+    "bhumiconceptual" : {
+        text : "BHUMI",
+        category : "Conceptual Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704646070/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/Bhumi%20Malakar/ADP_7785_p7ec7q.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704646094/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/Bhumi%20Malakar/ADP_7784_keqnni.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704646099/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/Bhumi%20Malakar/ADP_7770_eruk0d.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704646070/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/Bhumi%20Malakar/ADP_7759_s46gd3.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704646071/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/Bhumi%20Malakar/ADP_7793_phimxy.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704646093/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/Bhumi%20Malakar/ADP_7803_y3jjnd.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704646095/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/Bhumi%20Malakar/ADP_7789_ds7fjx.jpg"
+        ]
+    },
+    "sudiptaportfolio" : {
+        text : "SUDIPTA",
+        category : "Portfolio Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593019/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/SUDIPTA/_MG_2498_avoyme.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704696164/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/SUDIPTA/_MG_2490_dcptz5.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704696165/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/SUDIPTA/_MG_2504_eksqc2.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593018/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/SUDIPTA/_MG_2517._wymm1b.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593019/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/SUDIPTA/_MG_2495_oicuz6.jpg"
+        ]
+    },
+    "riyanabridal" : {
+        text : "RIYANA",
+        category : "Bridal Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585251/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/RIYANA/ADP_3508_xncz7y.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585270/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/RIYANA/ADP_3476_of5r6k.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585250/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/RIYANA/ADP_3497_zmppw4.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585231/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/RIYANA/ADP_3483_zyavth.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585252/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/RIYANA/ADP_3527_vqn1dy.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585231/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/RIYANA/ADP_0553_yjvfbw.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586067/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/RIYANA/ADP_05066_vjfaux.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586229/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/RIYANA/ADP_0547_qbrzmq.jpg"
+        ]
+    },
+    "debosmitaportfolio" : {
+        text : "DEBOSMITA",
+        category : "Portfolio Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593000/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBOSMITA/ADP_8794_copy_p5vprt.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703592999/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBOSMITA/ADP_8774_copy_qctfuj.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703592999/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBOSMITA/ADP_8769_copy_urmb6l.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593001/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBOSMITA/ADP_8807_copy_dpw1e7.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703593000/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBOSMITA/ADP_8780_copy_t0lbjd.jpg"
+        ]
+    },
+    "debashreeconceptual" : {
+        text : "DEBASHREE",
+        category : "Conceptual Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587059/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/DEBASRHRI/ADP_5670_bye575.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586930/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/DEBASRHRI/ADP_5705_dpyalx.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586926/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/DEBASRHRI/ADP_5697_ndgv8p.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586851/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/DEBASRHRI/ADP_5696_yidjch.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -642,6 +770,24 @@ export const PPThumbnails = [
         id : "sunitabridal",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704649646/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/Sunita/ADP_1082_d7pcrg_tnpixn.jpg",
     },
+    {
+        id : 28,
+        text : "Bridal - Prayashi",
+        id : "prayashibridal",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704655633/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/Prayashi/thumb_alitcu.jpg",
+    },
+    {
+        id : 29,
+        text : "Bridal - Soumi",
+        id : "soumibridal",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704655591/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/Soumi%20Saha/Untitled-1_t9gdge.jpg",
+    },
+    {
+        id : 37,
+        text : "Bridal - Riyana",
+        id : "riyanabridal",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704722969/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/Riyana/Untitled-1_hbusvq.jpg",
+    },
 
 
     // Conceptual
@@ -665,7 +811,7 @@ export const PPThumbnails = [
     },
     {
         id : 11,
-        text : "Conceptual - Manali",
+        text : "Conceptual - Debashree",
         id : "debashreeconceptual",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703590741/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/DEBASHREE/Untitled-1_bcogsd.jpg",
     },
@@ -676,10 +822,40 @@ export const PPThumbnails = [
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704279471/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/ARPITA/ADP_7905_z9bu4s_bz8zaa.jpg",
     },
     {
+        id : 33,
+        text : "Conceptual - Bhumi",
+        id : "bhumiconceptual",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704646881/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/Bhumi%20Malakar/Untitled-1_wcaio2.jpg",
+    },
+    {
         id : 13,
         text : "Conceptual - Samragge",
         id : "samraggeconceptual",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704279988/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/SAMRAGGE/IMG_5337_tyck6v_ot0a0a.jpg",
+    },
+    {
+        id : 30,
+        text : "Conceptual - Rajanya",
+        id : "rajanyaconceptual",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704650215/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/Rajanya/Untitled-1_z0occh.jpg",
+    },
+    {
+        id : 31,
+        text : "Conceptual - Rupmanjary",
+        id : "rupmanjaryconceptual",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704649540/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/Rupmanjary/thumb_nmxfpt.jpg",
+    },
+    {
+        id : 32,
+        text : "Conceptual - Somraggy",
+        id : "somraggyconceptual",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704657209/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/SOMRAGGY/Untitled-1_jparoq.jpg",
+    },
+    {
+        id : 33,
+        text : "Conceptual - Tuja",
+        id : "tujaconceptual",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704657381/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/Tuja/thumb_fjj5vp.jpg",
     },
     {
         id : 14,
@@ -729,6 +905,8 @@ export const PPThumbnails = [
         id : "stylemaniac",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704651648/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/Style%20Maniac/ADP_4541_dfwjbm_jxnsbd.jpg",
     },
+
+
     // Portfolio 
     {
         id : 16,
@@ -749,10 +927,22 @@ export const PPThumbnails = [
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704281646/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/DOYEL/RAJ_0140_copy_qwme8g_icjsrm.jpg",
     },
     {
+        id : 39,
+        text : "Portfolio - Debosmita",
+        id : "debosmitaportfolio",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704722857/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/Debosmita/Untitled-1_mfktip.jpg",
+    },
+    {
         id : 24,
         text : "Portfolio - Riya",
         id : "riyaportfolio",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704646416/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/RIYA/Untitled-1_gqlm7f_mahyao.jpg",
+    },
+    {
+        id : 34,
+        text : "Portfolio - Sudipta",
+        id : "sudiptaportfolio",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704696100/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/Sudipta/Untitled-1_acgtbp.jpg",
     },
 
 

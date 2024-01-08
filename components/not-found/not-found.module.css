@@ -1,0 +1,17 @@
+.not_found_img_container{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    /* height: 650px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width : 850px){
+    .not_found_img_container{
+        height: 650px;
+    }
+}

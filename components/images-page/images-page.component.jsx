@@ -28,12 +28,12 @@ const ImagePage = ({imageAlbum}) => {
 
     if(isEmpty(currAlbumInfo)){
         return(
-            <div className={classes.image_page_wrapper}>
+            <div className={classes.image_page_wrapper_alt}>
                 <MoonLoader
                     color="Grey"
                     loading
                     cssOverride={override}
-                    size={150}
+                    size={70}
                     aria-label="Loading Spinner"
                     data-testid="loader"
                 />

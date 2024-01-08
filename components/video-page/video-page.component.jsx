@@ -8,6 +8,7 @@ import { videoAlbums } from "@/assets/imageLinks"
 import { isEmpty } from "@/utils/utils"
 import Image from "next/image"
 import { MoonLoader } from "react-spinners"
+import { notFound } from "next/navigation"
 
 const override = {
     display: "block",
@@ -25,17 +26,20 @@ const VideoPage = ({videoAlbum}) => {
 
     if(isEmpty(currAlbumInfo)){
         return(
-        <div className={classes.video_page_wrapper}>
+        <div className={classes.video_page_wrapper_alt}>
             <MoonLoader
                     color="Grey"
                     loading
                     cssOverride={override}
-                    size={150}
+                    size={70}
                     aria-label="Loading Spinner"
                     data-testid="loader"
                 />
         </div>
         )
+    }
+    else if(currAlbumInfo === undefined){
+        notFound()
     }
     return(
         <>
