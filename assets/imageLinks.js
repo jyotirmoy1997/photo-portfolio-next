@@ -640,6 +640,55 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703586851/Photography%20Website/ALBUM/PiexelPerfect/CONCEPTUAL/DEBASRHRI/ADP_5696_yidjch.jpg"
         ]
     },
+    "sahilduttaportfolio" : {
+        text : "SAHIL DUTTA",
+        category : "Portfolio Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704647763/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/SAHIL%20DUTTA/SAHIL_DA_15_armgme.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704647761/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/SAHIL%20DUTTA/SAHIL_DA_17_tybwvb.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704647407/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/SAHIL%20DUTTA/SAHIL_DA_12_kmnqhj.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704647764/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/SAHIL%20DUTTA/SAHIL_DA_18_bryqrn.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704647406/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/SAHIL%20DUTTA/SAHIL_DA_19_ntchgp.jpg"
+        ]
+    },
+    "passionandlove" : {
+        text : "PASSION & LOVE",
+        category : "Fashion Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582233/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0037_svgctl.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582231/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0049_j49q12.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582228/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0047_ieus8q.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582229/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0067_wayryb.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582226/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0056_dzlfw5.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582224/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0081_unvuny.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582219/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0108_s8amgs.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582222/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0106_ttjvit.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582227/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0014_xflusz.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582230/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0007_o2stok.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582221/Photography%20Website/ALBUM/PiexelPerfect/Boutique/ADP_7501_yvrwej.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582220/Photography%20Website/ALBUM/PiexelPerfect/Boutique/ADP_7483_w7wunb.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582221/Photography%20Website/ALBUM/PiexelPerfect/Boutique/ADP_7474_tirstb.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703582225/Photography%20Website/ALBUM/PiexelPerfect/Boutique/_DSC0128_a1uvum.jpg",
+            
+        ]
+    },
+    "abhijeetandshrestha" : {
+        text : "ABHIJEET & SHRESTHA",
+        category : "Wedding Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724816/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/ADP_8924_rpip33.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724819/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/ADP_8919_xmd8tr.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724819/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/ADP_9323_vgtyne.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724828/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/_DSC2990_gbm2kb.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724824/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/ADP_9568_q8z48z.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724823/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/ADP_9513_ccxddj.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724826/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/ADP_9744_okzng3.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724830/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/_DSC3602_ykzg03.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724828/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/_DSC3242_odmgnn.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724827/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/ADP_9766_fztewm.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724829/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/_DSC34233_h3871r.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -696,6 +745,12 @@ export const BBSThumbnails = [
         text : "Anamika & Papai's Wedding",
         id : "anamikapapai",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587062/Photography%20Website/ALBUM/THUMB/BibahoScapes/AnamikaPapai/_ADP3258_owa8hw_c2du0r.jpg",
+    },
+    {
+        id : 9,
+        text : "Abhijeet & Shrestha's Wedding",
+        id : "abhijeetandshrestha",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724829/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/_DSC34233_h3871r.jpg",
     },
     {
         id : 5,
@@ -944,6 +999,12 @@ export const PPThumbnails = [
         id : "sudiptaportfolio",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704696100/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/Sudipta/Untitled-1_acgtbp.jpg",
     },
+    {
+        id : 40,
+        text : "Portfolio - Sahil Dutta",
+        id : "sahilduttaportfolio",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704695663/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/SAHIL%20DUTTA/thumb_jwexrs.jpg",
+    },
 
 
     // Fashion
@@ -952,6 +1013,12 @@ export const PPThumbnails = [
         text : "Ichchedana",
         id : "ichchedana",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703591598/Photography%20Website/ALBUM/THUMB/PixelPerfect/Ichchedana/Pixel_Perfect_-BY_D_D_PRODUCTIONS_1_fxmo4o_x26pr0.jpg",
+    },
+    {
+        id : 41,
+        text : "Passion & Love",
+        id : "passionandlove",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704722349/Photography%20Website/ALBUM/THUMB/PixelPerfect/Passionandlove/Untitled-1_qtgpnv.jpg",
     },
 ]
 
