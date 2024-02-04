@@ -9,8 +9,12 @@ const IDAbout = ({name, aboutString, socialHandles}) => {
             <h2>{name}</h2>
             <p>{aboutString}</p>
             <div className={classes.id_about_logos}>
-                <Image src={fbLogo.src} height={35} width={35} alt="fb-logo" />
-                <Image src={instaLogo.src} height={35} width={35} alt="insta-logo" />
+                <a href={socialHandles.fb} target="_blank">
+                    <Image src={fbLogo.src} height={35} width={35} alt="fb-logo" />
+                </a>
+                <a href={socialHandles.insta} target="_blank">
+                    <Image src={instaLogo.src} height={35} width={35} alt="insta-logo" />
+                </a>
             </div>
         </div>
     )

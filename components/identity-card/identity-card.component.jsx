@@ -7,7 +7,7 @@ const imgStyles = {
     width : "100%"
 }
 
-const IdentityCard = ({imageURL, authName}) => {
+const IdentityCard = ({imageURL, authName, socialHandles}) => {
     const TestString = `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
     printer took a galley of type and scrambled it to make a type specimen book. It has survived 
@@ -26,7 +26,7 @@ const IdentityCard = ({imageURL, authName}) => {
                     priority 
                     sizes="100vw" />
             </div>
-            <IDAbout name={authName} aboutString={TestString} />
+            <IDAbout name={authName} aboutString={TestString} socialHandles={socialHandles} />
         </div>
     )
 }

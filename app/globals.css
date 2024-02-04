@@ -7,3 +7,17 @@ body{
 
 
 
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+
+ *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+ *::-webkit-scrollbar-thumb {
+    background-color: #003466;
+    /* background-color: aqua; */
+    border-radius: 8px;
+    border: 2px solid #DEDAE7;
+  }

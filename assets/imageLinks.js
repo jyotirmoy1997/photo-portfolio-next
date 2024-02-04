@@ -724,7 +724,7 @@ export const BBSThumbnails = [
         id : 1,
         text : "Shruti and Saptarshi's Wedding",
         id : "shrutiandsaptarshi",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702992839/Photography%20Website/ALBUM/thumbnails/img_b2ghbk.jpg",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704866344/Photography%20Website/ALBUM/THUMB/BibahoScapes/ShrutiSaptarshi/ADP_0932_2_copy_h2hjsd.jpg",
         
     },
     {
@@ -756,7 +756,7 @@ export const BBSThumbnails = [
         id : 5,
         text : "Jayati's Wedding",
         id : "jayati",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702992839/Photography%20Website/ALBUM/thumbnails/img3_rjzrs4.jpg",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704866417/Photography%20Website/ALBUM/THUMB/BibahoScapes/Jayati/ADP_4019_xwr4qk.jpg",
     },
     {
         id : 6,

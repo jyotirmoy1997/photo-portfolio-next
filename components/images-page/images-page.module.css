@@ -45,12 +45,12 @@
     width: 60%;
     display: flex;
     overflow-x: auto;
-    scrollbar-width: thin;
-    scrollbar-color: #003466 #ffffff;
+    /* scrollbar-width: thin;
+    scrollbar-color: #003466 #ffffff; */
 }
 
  .gallery_image_slider::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
   }
 
  .gallery_image_slider::-webkit-scrollbar-track {
@@ -59,8 +59,9 @@
 
  .gallery_image_slider::-webkit-scrollbar-thumb {
     background-color: #003466;
+    /* background-color: aqua; */
     border-radius: 8px;
-    border: 3px solid #ffffff;
+    border: 3px solid #DEDAE7;
   }
 
 .img_x{
