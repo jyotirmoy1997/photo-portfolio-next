@@ -1,8 +1,32 @@
-export const categoryCardImages = [
-    "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136175/Photography%20Website/category-card/test3_olrc2q_1_kyhwy0.jpg",
-    "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136162/Photography%20Website/category-card/test5_b910uc_1_z79laf.jpg",
-    "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677228317/Photography%20Website/category-card/test_zdv7kx.jpg",
-    "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136162/Photography%20Website/category-card/test6_szp22j_1_nury0o.jpg"
+export const categoryCardInfo = [
+    {
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136175/Photography%20Website/category-card/test3_olrc2q_1_kyhwy0.jpg",
+        logoLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697632619/Photography%20Website/logos/BibahoScapes_gzla2m_11zon_x2469h.png",
+        services : ["Pre-Wedding Photography", "Wedding Photography", "Post-Wedding Photography", "Wedding Films"],
+        description : "Capturing the Elegance of Your Love Story: Explore our Exquisite Wedding Photography Services",
+        routLink : "/bibahoscapes"
+    },
+    {
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136162/Photography%20Website/category-card/test5_b910uc_1_z79laf.jpg",
+        logoLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697632619/Photography%20Website/logos/PixelPerfect_dssyt0_11zon_r7dta4.png",
+        services : ["Portfolio Shoot", "Bridal Photoshoot", "Maternity/Baby Shoot", "Event Photography"],
+        description : "Unveil Your Essence: Explore our Snap and Shine Portfolio Magic services",
+        routLink : "/pixelperfect"
+    },
+    {
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677228317/Photography%20Website/category-card/test_zdv7kx.jpg",
+        logoLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703594586/Photography%20Website/logos/TheBrandStand_szaz9r.png",
+        services : ["Product Photography", "Food Photograaphy", "Brand Launch Photography"],
+        description : "Visual Alchemy: We Transform Brands with Captivating Photography services",
+        routLink : "/brandstand"
+    },
+    {
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136162/Photography%20Website/category-card/test6_szp22j_1_nury0o.jpg",
+        logoLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524614/Photography%20Website/logos/MediaPediaPNG_M_omk6x7.png",
+        services : ["Music Videos", "Youtube Videos", "Dance Videos", "Podcast Production"],
+        description : "Cinematic Brilliance: Our Signature Videography services Unleashes Your Story",
+        routLink : "/mediapedia"
+    },
 ]
 
 export const carouselImages = [

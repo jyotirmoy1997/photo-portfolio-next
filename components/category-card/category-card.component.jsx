@@ -1,20 +1,27 @@
 'use client'
-import { categoryCardImages } from "@/assets/imageLinks"
+import { categoryCardInfo} from "@/assets/imageLinks"
 import classes from "./category-card.module.css"
 import Image from "next/image"
 import { Fade } from "react-awesome-reveal"
+import Link from "next/link"
+
+
+const imageStyle = {
+    height: '100%',
+    width : '100%'
+}
 
 
 const CategoryCard = () => {
     return(
         <div className={classes.category_card_wrapper}>
             {
-                categoryCardImages.map((img, index) => {
+                categoryCardInfo.map((card, index) => {
                     return(
                         <div key={index} className={classes.category_card}>
                             <Image
                                 className={classes.category_card_img}
-                                src={img} alt="" 
+                                src={card.imgLink} alt="" 
                                 width={2000} 
                                 height={1000}
                                 quality={100} 
@@ -26,18 +33,38 @@ const CategoryCard = () => {
                                 ${(index % 2 == 0) ? 
                                 classes.alternate_odd : 
                                 classes.alternate_even}`}>
-                                <Fade duration={1200}>
+                                
+                                <Fade duration={2000} className={classes.fade}>
                                     <div 
                                         className={`${classes.det_gradient} 
                                         ${(index % 2 == 0) ? 
                                         classes.alternate_det_gradient_odd : 
                                         classes.alternate_det_gradient_even}`}>
-                                        <h1>BibahoScapes</h1>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Obcaecati quisquam dolor, esse ratione id dolorem ducimus natus fuga eos nostrum, eaque sint. 
-                                            Ducimus ea possimus nam temporibus impedit voluptatem qui.</p>
+                                        
+                                    
+
+                                        <div className={classes.category_logo_container}>
+                                            <Link href={card.routLink}>
+                                                <Image 
+                                                    src={card.logoLink} alt="category-logo"
+                                                    style={imageStyle} 
+                                                    width={0}
+                                                    height={0} 
+                                                    sizes="100vw" 
+                                                    priority
+                                                    quality={100} 
+                                                />
+                                            </Link>
+                                            
+                                        </div>
+                                        <p>{card.description}</p>
+                                        {
+                                            card.services.map((service, index) => <h3 className={classes.services_map} key={index}>{service}</h3>)
+                                        }
                                     </div>
+
                                 </Fade>
+                                
                             </div>
                         </div>
                     )

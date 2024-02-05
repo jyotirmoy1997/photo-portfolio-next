@@ -14,20 +14,25 @@ const Footer = () => {
             <div className={classes.footer}>
                 
                 <div className={classes.footer_info}>
-                    <h3>About D&D Productions</h3>
-                    <p>
-                        Follow Us
-                    </p>
-                    <div className={classes.footer_icons}>
-                        <a href="https://www.facebook.com/profile.php?id=100084598611956" target="_blank">
-                            <Image src={facebookLogo.src} alt="fb-logo" height={30} width={30}/>
-                        </a>
-                        <a href="https://www.instagram.com/dandd.productions/" target="_blank">
-                            <Image src={instagramLogo.src} alt="insta-logo" height={30} width={30}/>
-                        </a>
-                        <a href="https://www.youtube.com/@ddproductions664" target="_blank">
-                            <Image src={youtubeLogo.src} alt="yt-logo" height={30} width={30}/>
-                        </a>
+                    <h2>About D&D Productions</h2>
+                    <p>Crafting timeless love stories through Wedding Photography, showcasing individuality with Portfolio Photography, and narrating brand tales with captivating visuals</p>
+                    <div className={classes.footer_icons_wrapper}>
+                        <div className={classes.footer_follow}>
+                            <h4>
+                                Follow Us
+                            </h4>
+                        </div>
+                        <div className={classes.footer_icons}>
+                            <a href="https://www.facebook.com/profile.php?id=100084598611956" target="_blank">
+                                <Image src={facebookLogo.src} alt="fb-logo" height={30} width={30}/>
+                            </a>
+                            <a href="https://www.instagram.com/dandd.productions/" target="_blank">
+                                <Image src={instagramLogo.src} alt="insta-logo" height={30} width={30}/>
+                            </a>
+                            <a href="https://www.youtube.com/@ddproductions664" target="_blank">
+                                <Image src={youtubeLogo.src} alt="yt-logo" height={30} width={30}/>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className={classes.footer_contact_wrapper}>
