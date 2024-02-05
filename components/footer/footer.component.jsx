@@ -15,7 +15,7 @@ const Footer = () => {
                 
                 <div className={classes.footer_info}>
                     <h2>About D&D Productions</h2>
-                    <p>Crafting timeless love stories through Wedding Photography, showcasing individuality with Portfolio Photography, and narrating brand tales with captivating visuals</p>
+                    <p>Crafting timeless love stories through Wedding Photography, showcasing individuality with Portfolio Photography, narrating brand tales with captivating visuals, and bringing moments to life through the art of Videography.</p>
                     <div className={classes.footer_icons_wrapper}>
                         <div className={classes.footer_follow}>
                             <h4>

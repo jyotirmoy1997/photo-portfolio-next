@@ -1,3 +1,24 @@
+export const aboutInfo = [
+    {
+        authName : "Anish Dutta",
+        portfolioImage : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704282140/Photography%20Website/About/port1_lez9pi_1_fch505.jpg",
+        socialHandles : {
+            fb : "https://www.facebook.com/people/Anish-Dutta/100017535307656/",
+            insta : "https://www.instagram.com/anish_dutta_photography/"
+        },
+        about : "A dedicated B.Tech(IT) student, seamlessly juggles academia with his role as the creative force behind D&D Production. He captures the world's beauty through his lens, crafting compelling visual narratives. His wanderlust fuels his imagination, as he embarks on adventures that inspire his artistry. His portfolio spans portraits, landscapes, and candid moments, each narrating a unique tale. When not immersed in the world of pixels and shutters, Anish finds solace in strumming his guitar, channeling his emotions into melodious tunes."
+    },
+    {
+        authName : "Shuvrajyoti Das",
+        portfolioImage : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704282141/Photography%20Website/About/port3_tlafvf_1_pql5ot.jpg",
+        socialHandles : {
+            fb : "https://www.facebook.com/people/Shuvrajyoti-Das/pfbid02FV1sv22tb4oYt73M7wD8aqabBfkT8VuwXPeihFaD4QmuYgJR8e4GwKKxzTA4ZVw2l/",
+            insta : "https://www.instagram.com/shuvrajyoti_das/"
+        },
+        about : "A photographer, wayfarer, gadget enthusiast, and electronic synthesizer maestro. With a passion for capturing life's moments through his lens, he seamlessly integrates technology into his creative pursuits. Beyond photography, he channels creativity into melodious tunes on his synthesizer. He weaves visual and auditory tales that resonate with emotion. In moments of respite, you'll find him embarking on new adventures, camera in hand, framing the next chapter of his artistic journey."
+    }
+]
+
 export const categoryCardInfo = [
     {
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136175/Photography%20Website/category-card/test3_olrc2q_1_kyhwy0.jpg",
@@ -16,7 +37,7 @@ export const categoryCardInfo = [
     {
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677228317/Photography%20Website/category-card/test_zdv7kx.jpg",
         logoLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703594586/Photography%20Website/logos/TheBrandStand_szaz9r.png",
-        services : ["Product Photography", "Food Photograaphy", "Brand Launch Photography"],
+        services : ["Product Photography", "Food Photography", "Brand Launch Photography"],
         description : "Visual Alchemy: We Transform Brands with Captivating Photography services",
         routLink : "/brandstand"
     },
@@ -45,16 +66,18 @@ export const galleryPreviewImages = [
         id : 1,
         type : "bibahoscapes",
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697632619/Photography%20Website/logos/BibahoScapes_gzla2m_11zon_x2469h.png",
+        description : "Capturing Eternal Moments: Unveiling the Beauty of Your Love Story Through Timeless Wedding Photography",
         images : [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697560175/Photography%20Website/Gallery-Preview/bibaho-scapes/test7_wqjgvr_1_ocdoho.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697560165/Photography%20Website/Gallery-Preview/bibaho-scapes/test9_vlln3x_1_dur31q.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697560170/Photography%20Website/Gallery-Preview/bibaho-scapes/test10_rnlfjf_1_krs3jf.jpg"
-        ]
+        ],
     },
     {
         id : 2,
         type : "pixelperfect",
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697632619/Photography%20Website/logos/PixelPerfect_dssyt0_11zon_r7dta4.png",
+        description : "Picture Perfect Memories: Showcasing Life's Beautiful Moments Through Expertly Crafted Portfolio Photography",
         images : [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227726/Photography%20Website/Gallery-Preview/pixel-perfect/test13_witoff.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227726/Photography%20Website/Gallery-Preview/pixel-perfect/test12_dsyzzf.jpg",
@@ -65,6 +88,7 @@ export const galleryPreviewImages = [
         id : 3,
         type : "brandstand",
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703594586/Photography%20Website/logos/TheBrandStand_szaz9r.png",
+        description : "Elevate Your Brand Image: Striking Visuals Tailored for Success with Our Professional Brand Photography Services",
         images : [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227808/Photography%20Website/Gallery-Preview/the-brandstand/test14_jquemd.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227907/Photography%20Website/Gallery-Preview/the-brandstand/test15_x8up3s.jpg",
@@ -75,6 +99,7 @@ export const galleryPreviewImages = [
         id : 4,
         type : "mediapedia",
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524614/Photography%20Website/logos/MediaPediaPNG_M_omk6x7.png",
+        description : "Cinematic Brilliance in Every Frame: Redefining Visual Storytelling with Our Expert Videography Services",
         images : [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524426/Photography%20Website/Gallery-Preview/media-pedia/Album_Cover_silwno.png",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524458/Photography%20Website/Gallery-Preview/media-pedia/Agomini_Thumbnail_ogxs9t.jpg",

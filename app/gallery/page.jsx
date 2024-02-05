@@ -14,6 +14,7 @@ const Gallery = () => {
                                 logo={content.logo} 
                                 imageArray={content.images}
                                 type={content.type}
+                                description={content.description}
                             />
                         </div>
                     )
