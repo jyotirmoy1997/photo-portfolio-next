@@ -4,7 +4,7 @@ import GalleryItem from "@/components/gallery-item/gallery-item.component"
 
 export const metadata = {
     title: 'Pixel Perfect',
-    description: 'You destination for portfolio shoots',
+    description: 'Unveil Your Essence: Explore our Snap and Shine Portfolio Magic services',
 }
 
 const PixelPerfect = () => {

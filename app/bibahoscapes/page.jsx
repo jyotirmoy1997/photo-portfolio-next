@@ -4,7 +4,7 @@ import { BBSThumbnails } from "@/assets/imageLinks"
 
 export const metadata = {
     title: 'BibahoScapes',
-    description: 'You destination for wedding pgotography',
+    description: 'Capturing the Elegance of Your Love Story: Explore our Exquisite Wedding Photography Services',
 }
 
 const BBS = () => {

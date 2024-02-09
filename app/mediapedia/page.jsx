@@ -4,7 +4,7 @@ import mpLogo from "@/public/logos/MediaPedia.png"
 
 export const metadata = {
     title: 'Media Pedia',
-    description: 'You destination for videography',
+    description: 'Cinematic Brilliance: Our Signature Videography services Unleashes Your Story',
 }
 
 

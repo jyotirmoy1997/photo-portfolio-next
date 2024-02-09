@@ -4,7 +4,7 @@ import GalleryItem from "@/components/gallery-item/gallery-item.component"
 
 export const metadata = {
     title: 'The Brandstand',
-    description: 'You destination for brand photography',
+    description: 'Visual Alchemy: We Transform Brands with Captivating Photography services',
 }
 
 const BrandStand = () => {
