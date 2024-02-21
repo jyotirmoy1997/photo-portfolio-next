@@ -39,7 +39,7 @@ const Footer = () => {
                     <div className={classes.footer_contact}>
                         <div className={classes.footer_contact_items}>
                             <Image src={locationLogo.src} alt="loc-logo" height={30} width={30}/>
-                            <p>Raikatpara , Jalpaiguri</p>
+                            <p>Raikatpara, Jalpaiguri</p>
                         </div>
                         <div className={classes.footer_contact_items}>
                             <Image src={phoneLogo.src} alt="ph-logo" height={30} width={30}/>

@@ -4,13 +4,19 @@ import Footer from '@/components/footer/footer.component'
 import classes from "./layout.module.css"
 import Image from 'next/image'
 import whatsAppLogo from "@/public/logos/whatsapp.png"
-import { PT_Sans } from "next/font/google"
+import { PT_Sans, Noto_Sans } from "next/font/google"
 
 const PTSans = PT_Sans({
   weight: [ "400", "700" ],
   subsets: [ "latin" ],
   display : "swap"
 });
+
+const NotoSans = Noto_Sans({
+  weight: [ "300", "400", "500", "600", "700" ],
+  subsets: [ "latin" ],
+  display : "swap"
+})
 
 export const metadata = {
   title: 'D&D Productions',
@@ -21,7 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true}  >
+      <body suppressHydrationWarning={true} className={NotoSans.className} >
         <Navigation/>
         <div className={classes.wrapper}>
           {children}

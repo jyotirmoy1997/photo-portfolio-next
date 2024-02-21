@@ -60,8 +60,8 @@ const ImagePage = ({imageAlbum}) => {
                             <div className={classes.image_content}>
                                 <h5>Links</h5>
                                 <div className={classes.image_desc_link_container}>
-                                    <Image src={fblogo.src} alt="" width={30} height={30} />
-                                    <Image src={instalogo.src} alt="" width={30} height={30} />
+                                    <a href="https://www.facebook.com/profile.php?id=100084598611956" target="_blank"><Image src={fblogo.src} alt="" width={30} height={30} /></a>
+                                    <a href="https://www.instagram.com/dandd.productions/" target="_blank"><Image src={instalogo.src} alt="" width={30} height={30} /></a>
                                 </div>
                             </div>
                         </div>
