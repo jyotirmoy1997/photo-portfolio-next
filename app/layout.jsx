@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className={PTSans.className}>
+      <body suppressHydrationWarning={true}  >
         <Navigation/>
         <div className={classes.wrapper}>
           {children}
@@ -36,3 +36,6 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
+
+// className={PTSans.className}

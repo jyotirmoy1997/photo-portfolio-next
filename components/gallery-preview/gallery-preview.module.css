@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Parisienne&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Parisienne&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Parisienne&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Parisienne&family=Poiret+One&display=swap');
 
 .gallery_preview_container{
     display: flex;
@@ -8,15 +14,21 @@
 }
 
 .gallery_preview_container h1{
-    font-family: "Libre Baskerville", serif;
-    font-style: italic;
+    /* font-family: "Libre Baskerville", serif; */
+    /* font-style: italic; */
     text-align: center;
+    /* font-family: "Dancing Script", cursive; */
     width: 70%;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 400;
     /* font-family: "Romanesco", cursive;
     font-weight: 400;
     font-style: normal; */
+    /* font-family: "Poiret One", sans-serif; */
+    /* font-family: "Parisienne", cursive; */
+    /* font-family: "Grey Qo", cursive; */
+    /* font-family: "Arizonia", cursive; */
+    /* font-family: "Great Vibes", cursive; */
 }
 
 .gallery_preview_image_container{
