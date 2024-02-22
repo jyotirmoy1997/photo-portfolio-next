@@ -1,5 +1,4 @@
 import classes from "./cover-page.module.css"
-import { coverLink } from "@/assets/imageLinks"
 import Image from "next/image"
 import coverPage from "@/public/cover_page.png"
 

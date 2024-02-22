@@ -37,17 +37,22 @@ const Footer = () => {
                 </div>
                 <div className={classes.footer_contact_wrapper}>
                     <div className={classes.footer_contact}>
+                        <h2>Contact Us</h2>
                         <div className={classes.footer_contact_items}>
-                            <Image src={locationLogo.src} alt="loc-logo" height={30} width={30}/>
-                            <p>Raikatpara, Jalpaiguri</p>
-                        </div>
-                        <div className={classes.footer_contact_items}>
-                            <Image src={phoneLogo.src} alt="ph-logo" height={30} width={30}/>
+                            {/* <a href="tel:+917865003343"> */}
+                                <Image src={phoneLogo.src} alt="ph-logo" height={30} width={30}/>
+                            {/* </a> */}
                             <p>+917865003343 / +919614455661</p>
                         </div>
                         <div className={classes.footer_contact_items}>
-                            <Image src={mailLogo.src} alt="mail-logo" height={30} width={30}/>
+                            <a href="mailto:dasandduttaproductions@gmail.com">
+                                <Image src={mailLogo.src} alt="mail-logo" height={30} width={30}/>
+                            </a>
                             <p>dasandduttaproductions@gmail.com</p>
+                        </div>
+                        <div className={classes.footer_contact_items}>
+                            <Image src={locationLogo.src} alt="loc-logo" height={30} width={30}/>
+                            <p>Raikatpara, Jalpaiguri</p>
                         </div>
                     </div>
                 </div>

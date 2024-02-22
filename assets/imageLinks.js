@@ -59,8 +59,6 @@ export const carouselImages = [
         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135565/Photography%20Website/Carousel/img3_orfoar.jpg"
 ]
 
-export const coverLink = "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677228553/Photography%20Website/Cover/cover_sr3x8j.jpg"
-
 export const galleryPreviewImages = [
     {
         id : 1,
@@ -90,7 +88,7 @@ export const galleryPreviewImages = [
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703594586/Photography%20Website/logos/TheBrandStand_szaz9r.png",
         description : "Elevate Your Brand Image: Striking Visuals Tailored for Success with Our Professional Brand Photography Services",
         images : [
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227808/Photography%20Website/Gallery-Preview/the-brandstand/test14_jquemd.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708584079/Photography%20Website/Gallery-Preview/the-brandstand/test14_jquemd_1_ep1r1w.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227907/Photography%20Website/Gallery-Preview/the-brandstand/test15_x8up3s.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227906/Photography%20Website/Gallery-Preview/the-brandstand/test16_rvbaen.jpg"
         ]
