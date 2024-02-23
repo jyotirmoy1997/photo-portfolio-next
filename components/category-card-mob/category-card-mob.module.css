@@ -1,0 +1,53 @@
+.category_card_mob_wrapper{
+    display: none;
+}
+
+@media (max-width : 850px){
+    .category_card_mob_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 2em 0;
+    }
+    .cat_card_mob_img_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .cat_card_mob_banner{
+        width: 30%;
+    }
+    .category_card_mob{
+        display: flex;
+        /* background-color: chocolate; */
+        /* flex-direction: column; */
+    }
+    .cat_card_mob_portfolio{
+        border-radius: 5px;
+        width: 50%;
+    }
+    .mob_view{
+        display: none;
+    }
+}
+
+@media (max-width : 650px){
+    .cat_card_mob_banner{
+        width: 60%;
+    }
+    .category_card_mob{
+        flex-direction: column;
+    }
+    .cat_card_mob_portfolio{
+        width: 90%;
+    }
+    .tab_view{
+        display: none;
+    }
+    .mob_view{
+        display: flex;
+    }
+}

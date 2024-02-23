@@ -94,15 +94,18 @@
 }
 
 @media (max-width : 1200px){
+    .category_card_wrapper{
+        width: 100%;
+    }
     .overlay{
-        font-size: 13px;
+        font-size: 12px;
     }
     .overlay p{
         width: 90%;
     }
-    .services_map{
+    /* .services_map{
         display: none;
-    }
+    } */
     .category_logo_container{
         width: 100%;
         height: auto;
@@ -112,7 +115,6 @@
 
 @media (max-width : 850px){
     .category_card_wrapper{
-        width: 100%;
-        /* padding: 0.1em; */
+        display: none;
     }
 }
