@@ -51,12 +51,12 @@ export const categoryCardInfo = [
 ]
 
 export const carouselImages = [
-        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135542/Photography%20Website/Carousel/img5_o2xjxk.jpg",
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708707468/Photography%20Website/Carousel/_CCS2900_mnt5op.jpg",
         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135542/Photography%20Website/Carousel/img7_ep8njv.jpg",
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708707279/Photography%20Website/Carousel/ADP_4642_bnw_lntehx.jpg",
         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135563/Photography%20Website/Carousel/img1_zvznzx.jpg",
         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135564/Photography%20Website/Carousel/img4_rbqdk8.jpg",
         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135542/Photography%20Website/Carousel/img6_kub9gh.jpg",
-        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135565/Photography%20Website/Carousel/img3_orfoar.jpg"
 ]
 
 export const galleryPreviewImages = [
@@ -99,7 +99,7 @@ export const galleryPreviewImages = [
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524614/Photography%20Website/logos/MediaPediaPNG_M_omk6x7.png",
         description : "Cinematic Brilliance in Every Frame: Redefining Visual Storytelling with Our Expert Videography Services",
         images : [
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524426/Photography%20Website/Gallery-Preview/media-pedia/Album_Cover_silwno.png",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708706606/Photography%20Website/Gallery-Preview/media-pedia/passori_ec1cqi.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524458/Photography%20Website/Gallery-Preview/media-pedia/Agomini_Thumbnail_ogxs9t.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704630720/Photography%20Website/Gallery-Preview/media-pedia/ADP_6348_1_txfzio.jpg"
         ]
@@ -967,7 +967,7 @@ export const PPThumbnails = [
         id : 33,
         text : "Conceptual - Bhumi",
         id : "bhumiconceptual",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704646881/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/Bhumi%20Malakar/Untitled-1_wcaio2.jpg",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708707898/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/Bhumi%20Malakar/Yogist_Yogini_a30uwg.jpg",
     },
     {
         id : 13,

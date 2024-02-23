@@ -10,21 +10,36 @@ const imageStyle = {
     borderRadius : '5px'
 }
 
-const indexes = [0, 1, 2, 3]
+const imgArray = [
+    {
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704365/Photography%20Website/test/TAG_epxay2.png",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708685333/Photography%20Website/test/test3_olrc2q_1_kyhwy0_m4dog6.jpg"
+    },
+    {
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708705714/Photography%20Website/test/PIXEL_TAG_ciw5lu.png",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704810/Photography%20Website/test/test5_b910uc_1_z79laf_sblcbb.jpg"
+    },
+    {
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708705715/Photography%20Website/test/BrandStand_TAG_euyb1o.png",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704803/Photography%20Website/test/test_zdv7kx_bctq9t.jpg"
+    },
+    {
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708705713/Photography%20Website/test/MEDIA_PEDIA_TAG_gkkhqu.png",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704753/Photography%20Website/test/test6_szp22j_1_nury0o_dmg9c1.jpg"
+    }
+]
 
 const CategoryCardMob = () => {
     return(
         <div className={classes.category_card_mob_wrapper}>
-            {indexes.map((el, index) => {
-                if(index % 2 == 0){
+            {imgArray.map((el, index) => {
                     return(
-                        <>
-                        <Fade duration={2000}>
-                            <div duration={2000} className={`${classes.category_card_mob} ${classes.tab_view}}`}>
+                        <Fade key={index} duration={1200}>
+                            <div className={`${classes.category_card_mob} ${classes.mob_view}`}>
                                 <div className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_banner}`}>
                                     <Image 
                                         className={classes.cat_card_mob_img} 
-                                        src="https://res.cloudinary.com/dst1eqcmo/image/upload/v1708683686/Photography%20Website/test/bibahooscapes_rxamie.png" 
+                                        src={el.logo} 
                                         alt=""
                                         width={0}
                                         height={0}
@@ -37,7 +52,7 @@ const CategoryCardMob = () => {
                                 <div className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_portfolio}`}>
                                     <Image 
                                         className={classes.cat_card_mob_img} 
-                                        src="https://res.cloudinary.com/dst1eqcmo/image/upload/v1708685333/Photography%20Website/test/test3_olrc2q_1_kyhwy0_m4dog6.jpg" 
+                                        src={el.imgLink}
                                         alt=""
                                         width={0}
                                         height={0}
@@ -49,84 +64,7 @@ const CategoryCardMob = () => {
                                 </div>
                             </div>
                         </Fade>
-                        
-                        </>
-                    )
-                }
-                else{
-                    return(
-                        <>
-                        <Fade duration={1200}>
-                        <div className={`${classes.category_card_mob} ${classes.tab_view}`}>
-                            
-                            <div className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_portfolio}`}>
-                                <Image 
-                                    className={classes.cat_card_mob_img} 
-                                    src="https://res.cloudinary.com/dst1eqcmo/image/upload/v1708685333/Photography%20Website/test/test3_olrc2q_1_kyhwy0_m4dog6.jpg" 
-                                    alt=""
-                                    width={0}
-                                    height={0}
-                                    sizes="100vw"
-                                    style={imageStyle}
-                                    priority
-                                    quality={100}
-                                />
-                            </div>
-                            <div className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_banner}`}>
-                                <Image 
-                                    className={classes.cat_card_mob_img} 
-                                    src="https://res.cloudinary.com/dst1eqcmo/image/upload/v1708683686/Photography%20Website/test/bibahooscapes_rxamie.png" 
-                                    alt=""
-                                    width={0}
-                                    height={0}
-                                    sizes="100vw"
-                                    style={imageStyle}
-                                    priority
-                                    quality={100}
-                                />
-                            </div>
-                        </div>
-                        </Fade>
-                        
-                        </>
-                    )
-                }
-            })}
-
-            {indexes.map((el, index) => {
-                    return(
-                        <>
-                        <Fade duration={1200}><div className={`${classes.category_card_mob} ${classes.mob_view}`}>
-                            <div className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_banner}`}>
-                                <Image 
-                                    className={classes.cat_card_mob_img} 
-                                    src="https://res.cloudinary.com/dst1eqcmo/image/upload/v1708683686/Photography%20Website/test/bibahooscapes_rxamie.png" 
-                                    alt=""
-                                    width={0}
-                                    height={0}
-                                    sizes="100vw"
-                                    style={imageStyle}
-                                    priority
-                                    quality={100}
-                                />
-                            </div>
-                            <div className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_portfolio}`}>
-                                <Image 
-                                    className={classes.cat_card_mob_img} 
-                                    src="https://res.cloudinary.com/dst1eqcmo/image/upload/v1708685333/Photography%20Website/test/test3_olrc2q_1_kyhwy0_m4dog6.jpg" 
-                                    alt=""
-                                    width={0}
-                                    height={0}
-                                    sizes="100vw"
-                                    style={imageStyle}
-                                    priority
-                                    quality={100}
-                                />
-                            </div>
-                        </div></Fade>
-                        
-                        </>
-                    )
+                )
             })}
         </div>
     )
