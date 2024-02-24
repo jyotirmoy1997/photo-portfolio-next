@@ -34,7 +34,7 @@ const CategoryCard = () => {
                                 classes.alternate_odd : 
                                 classes.alternate_even}`}>
                                 
-                                <Fade duration={2000} className={classes.fade}>
+                                <Fade duration={1700} className={classes.fade}>
                                     <div 
                                         className={`${classes.det_gradient} 
                                         ${(index % 2 == 0) ? 
