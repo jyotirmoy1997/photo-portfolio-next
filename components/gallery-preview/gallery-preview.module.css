@@ -8,6 +8,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Parisienne&family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Pinyon+Script&display=swap');
+
 
 .gallery_preview_container{
     display: flex;
@@ -22,7 +25,7 @@
     text-align: center;
     /* font-family: "Dancing Script", cursive; */
     width: 70%;
-    font-size: 35px;
+    font-size: 30px;
     /* font-weight: 400; */
     /* font-family: "Romanesco", cursive;
     font-weight: 400;
@@ -33,8 +36,14 @@
     /* font-family: "Arizonia", cursive; */
     /* font-family: "Great Vibes", cursive; */
 
-  font-family: "Alex Brush", cursive;
+  /* font-family: "Alex Brush", cursive;
   font-weight: 400;
+  font-style: normal; */
+  /* font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal; */
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
   font-style: normal;
 
 }
