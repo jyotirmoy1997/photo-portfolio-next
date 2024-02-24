@@ -23,22 +23,24 @@
     .category_card_mob{
         display: flex;
         gap: 20px;
-        /* background-color: chocolate; */
-        /* flex-direction: column; */
     }
     .cat_card_mob_portfolio{
         border-radius: 5px;
         width: 50%;
     }
-    .tab_view{
-        display: flex;
-    }
+
     .mob_view{
         display: none;
     }
+    .tab_view{
+        display: flex;
+    }
+    .fade{
+        background-color: chocolate;
+    }
 }
 
-@media (max-width : 650px){
+@media (max-width : 600px){
     .cat_card_mob_banner{
         width: 60%;
     }
@@ -48,10 +50,10 @@
     .cat_card_mob_portfolio{
         width: 90%;
     }
-    .tab_view{
-        display: none;
-    }
     .mob_view{
         display: flex;
+    }
+    .tab_view{
+        display: none;
     }
 }

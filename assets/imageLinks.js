@@ -50,6 +50,29 @@ export const categoryCardInfo = [
     },
 ]
 
+export const categoryCardInfoMob = [
+    {
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704365/Photography%20Website/test/TAG_epxay2.png",
+        routeLink : "/bibahoscapes",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708685333/Photography%20Website/test/test3_olrc2q_1_kyhwy0_m4dog6.jpg"
+    },
+    {
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708705714/Photography%20Website/test/PIXEL_TAG_ciw5lu.png",
+        routeLink : "/pixelperfect",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704810/Photography%20Website/test/test5_b910uc_1_z79laf_sblcbb.jpg"
+    },
+    {
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708705715/Photography%20Website/test/BrandStand_TAG_euyb1o.png",
+        routeLink : "/brandstand",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704803/Photography%20Website/test/test_zdv7kx_bctq9t.jpg"
+    },
+    {
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708705713/Photography%20Website/test/MEDIA_PEDIA_TAG_gkkhqu.png",
+        routeLink : "/mediapedia",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704753/Photography%20Website/test/test6_szp22j_1_nury0o_dmg9c1.jpg"
+    }
+]
+
 export const carouselImages = [
         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708707468/Photography%20Website/Carousel/_CCS2900_mnt5op.jpg",
         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135542/Photography%20Website/Carousel/img7_ep8njv.jpg",
