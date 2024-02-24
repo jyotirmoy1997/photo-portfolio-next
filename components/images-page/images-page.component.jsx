@@ -71,7 +71,7 @@ const ImagePage = ({imageAlbum}) => {
                         {
                             currAlbumInfo.images.map((image, index) => {
                                 return(
-                                    <div key={index} className={classes.img_x}>
+                                    <div key={index} className={`${classes.img_x}`}>
                                         <Image 
                                             className={classes.img_y} 
                                             src={image} 
