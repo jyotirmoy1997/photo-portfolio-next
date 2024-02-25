@@ -138,6 +138,7 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916190/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/ADP_1247_copy_rigi3s.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916394/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/ADP_1620_wqzgx8.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916375/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/ADP_1673_mw6lup.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708847007/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/ADP_1688_rxmsyx.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708846984/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/_DSC0069_1_vxukhq.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708847003/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/_DSC0107_1_v6faa0.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916309/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/_DSC0196_rrwzxv.jpg",
