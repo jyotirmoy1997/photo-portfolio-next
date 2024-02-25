@@ -28,7 +28,7 @@ export const categoryCardInfo = [
         routLink : "/bibahoscapes"
     },
     {
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136162/Photography%20Website/category-card/test5_b910uc_1_z79laf.jpg",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708842051/Photography%20Website/category-card/ADP_3645_1_cz0juw.jpg",
         logoLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697632619/Photography%20Website/logos/PixelPerfect_dssyt0_11zon_r7dta4.png",
         services : ["Portfolio Shoot", "Bridal Photoshoot", "Maternity/Baby Shoot", "Event Photography"],
         description : "Unveil Your Essence: Explore our Snap and Shine Portfolio Magic services",
@@ -54,22 +54,22 @@ export const categoryCardInfoMob = [
     {
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708797902/Photography%20Website/category-card-mob/bibahooscapes_i3ovkp.png",
         routeLink : "/bibahoscapes",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708685333/Photography%20Website/test/test3_olrc2q_1_kyhwy0_m4dog6.jpg"
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708839554/Photography%20Website/category-card-mob/test3_olrc2q_1_kyhwy0_m4dog6_sz9u0l.jpg"
     },
     {
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708797902/Photography%20Website/category-card-mob/pixelperfect_uj8aac.png",
         routeLink : "/pixelperfect",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704810/Photography%20Website/test/test5_b910uc_1_z79laf_sblcbb.jpg"
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708839554/Photography%20Website/category-card-mob/ADP_3645_caql0g_agxvrw.jpg"
     },
     {
-        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708797903/Photography%20Website/category-card-mob/mediapedia_tbcbnc.png",
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708797904/Photography%20Website/category-card-mob/brandstand_armbwc.png",
         routeLink : "/brandstand",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704803/Photography%20Website/test/test_zdv7kx_bctq9t.jpg"
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708839552/Photography%20Website/category-card-mob/test_zdv7kx_bctq9t_kd4lzn.jpg"
     },
     {
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708797903/Photography%20Website/category-card-mob/mediapedia_tbcbnc.png",
         routeLink : "/mediapedia",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708704753/Photography%20Website/test/test6_szp22j_1_nury0o_dmg9c1.jpg"
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708839554/Photography%20Website/category-card-mob/test6_szp22j_1_nury0o_dmg9c1_m9vhwc.jpg"
     }
 ]
 
