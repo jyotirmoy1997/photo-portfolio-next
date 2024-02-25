@@ -138,10 +138,12 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916190/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/ADP_1247_copy_rigi3s.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916394/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/ADP_1620_wqzgx8.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916375/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/ADP_1673_mw6lup.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708846984/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/_DSC0069_1_vxukhq.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708847003/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/_DSC0107_1_v6faa0.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916309/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/_DSC0196_rrwzxv.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916267/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/_DSC0076_dtfq95.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702916582/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/_DSC0237_oe7b5g.jpg",
-            ""
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708847005/Photography%20Website/ALBUM/BibahoScapes/GouravmoyPriyanka/DSC_0689_w5wi9z.jpg"
         ]
     },
     "shrutiandsaptarshi" : {
@@ -601,7 +603,6 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585492/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Soumi/ADP_3823_q0ftn4.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585493/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Soumi/ADP_3805_qfewgh.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703585762/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Soumi/ADP_3827_xlgfv8.jpg",
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703592171/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Soumi/ADP_3792_khaufy.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703592171/Photography%20Website/ALBUM/PiexelPerfect/BRIDAL/Soumi/ADP_3792_khaufy.jpg"
         ]
     },
