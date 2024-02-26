@@ -9,8 +9,8 @@ export default function Home() {
     <main className={classes.main}>
       <CoverPage/>
       <CarouselComponent/>
-      <CategoryCard className={classes.desktop_view_off}/>
-      <CategoryCardMob className={classes.mob_view_off}/>
+      <CategoryCard />
+      <CategoryCardMob/>
     </main>
   )
 }

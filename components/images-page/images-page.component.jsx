@@ -1,13 +1,15 @@
 'use client'
+
 import { useState, useEffect } from "react"
+import { notFound } from "next/navigation"
+import { isEmpty } from "@/utils/utils"
+import Image from "next/image"
+import { imageAlbums } from "@/assets/imageLinks.js"
 import fblogo from "@/public/logos/facebook.png"
 import instalogo from "@/public/logos/instagram.png"
-import { imageAlbums } from "@/assets/imageLinks.js"
-import classes from "./images-page.module.css"
-import Image from "next/image"
-import { isEmpty } from "@/utils/utils"
 import { MoonLoader } from "react-spinners"
-import { notFound } from "next/navigation"
+import classes from "./images-page.module.css"
+
 
 const imageStyle = {
     height: '100%',

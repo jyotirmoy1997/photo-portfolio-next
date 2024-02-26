@@ -1,8 +1,9 @@
 'use client'
 import { useState, useEffect } from "react"
 import { redirect } from 'next/navigation'
-import classes from "./gallery-item.module.css"
 import Image from "next/image"
+import classes from "./gallery-item.module.css"
+
 
 const imageStyle = {
     height: 'auto',

@@ -64,7 +64,6 @@
 
 @media (max-width : 850px) {
     .image_slider_marker{
-        /* background-color: brown; */
         bottom: -0.5em;
     }
 }

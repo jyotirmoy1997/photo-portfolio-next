@@ -1,13 +1,12 @@
 'use client'
 
-import classes from "./carousel.module.css"
 import { useState, useEffect } from "react"
 import { carouselImages } from "@/assets/imageLinks"
 import Image from "next/image"
 import { IoIosArrowBack } from "react-icons/io"
 import { IoIosArrowForward } from "react-icons/io";
 import { GoHorizontalRule } from "react-icons/go";
-
+import classes from "./carousel.module.css"
 
 
 const CarouselComponent = () => {

@@ -1,6 +1,6 @@
-import classes from "./gallery-preview.module.css"
 import Link from "next/link"
 import Image from "next/image"
+import classes from "./gallery-preview.module.css"
 
 
 const GalleryPreview = ({logo, imageArray, type, description}) => {

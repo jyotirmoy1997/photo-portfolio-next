@@ -1,6 +1,6 @@
 import GalleryItem from "@/components/gallery-item/gallery-item.component"
-import bbsLogo from "@/public/logos/BibahoScapes.png"
 import { BBSThumbnails } from "@/assets/imageLinks"
+import bbsLogo from "@/public/logos/BibahoScapes.png"
 
 export const metadata = {
     title: 'BibahoScapes',

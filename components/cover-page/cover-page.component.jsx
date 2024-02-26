@@ -1,6 +1,6 @@
-import classes from "./cover-page.module.css"
 import Image from "next/image"
 import coverPage from "@/public/cover_page.png"
+import classes from "./cover-page.module.css"
 
 const CoverPage = () => {
     return(

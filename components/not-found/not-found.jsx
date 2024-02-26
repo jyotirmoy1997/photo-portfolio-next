@@ -1,6 +1,6 @@
+import Image from "next/image"
 import rootErrImg from "@/public/404_Page.png"
 import albumErrImg from "@/public/404_album.png"
-import Image from "next/image"
 import classes from "./not-found.module.css"
 
 const NotFound = ({type}) => {

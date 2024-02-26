@@ -1,10 +1,10 @@
 'use client'
 
 import { categoryCardInfoMob } from "@/assets/imageLinks"
-import classes from "./category-card-mob.module.css"
 import Image from "next/image"
 import Link from "next/link"
 import { Fade } from "react-awesome-reveal"
+import classes from "./category-card-mob.module.css"
 
 const imageStyle = {
     height: '100%',

@@ -18,9 +18,6 @@
     .identity_card{
         flex-direction: column;
         gap: 0px;
-        /* justify-content: flex-start;
-        align-items: flex-start;
-        align-content: flex-start; */
     }
     .identity_card_img_wrapper{
         width: 80%;

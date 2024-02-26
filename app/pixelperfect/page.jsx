@@ -1,6 +1,6 @@
-import ppLogo from "@/public/logos/PixelPerfect.png"
 import { PPThumbnails } from "@/assets/imageLinks"
 import GalleryItem from "@/components/gallery-item/gallery-item.component"
+import ppLogo from "@/public/logos/PixelPerfect.png"
 
 export const metadata = {
     title: 'Pixel Perfect',

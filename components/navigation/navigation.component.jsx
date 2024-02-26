@@ -1,20 +1,20 @@
 'use client'
-import Link from "next/link"
+
 import { useState, useRef, Fragment } from "react"
+import { usePathname } from "next/navigation";
+import Link from "next/link"
+import Image from "next/image";
 import logo from "@/public/logos/MainLogo.png"
 import { IoMdArrowDropdown } from "react-icons/io";
 import { GrClose } from 'react-icons/gr';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import classes from "./navigation.module.css"
-import Image from "next/image";
-import { usePathname } from "next/navigation";
 
 
 const Navigation = () => {
     const dropdownRef = useRef(null)
     const navRef = useRef()
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
-    const [showLinks, setShowLinks] = useState(false)
     const currentPage = usePathname()
     const toggleDropdown = () => {
         if(isDropdownOpen){

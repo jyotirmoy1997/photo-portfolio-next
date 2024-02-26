@@ -1,7 +1,6 @@
-import classes from "./page.module.css"
 import IdentityCard from "@/components/identity-card/identity-card.component"
 import { aboutInfo } from "@/assets/imageLinks"
-
+import classes from "./page.module.css"
 
 const About = () => {
     return(

@@ -1,12 +1,13 @@
 'use client'
+
 import { useState, useEffect } from "react"
+import { isEmpty } from "@/utils/utils"
+import Image from "next/image"
+import { videoAlbums } from "@/assets/imageLinks"
 import fblogo from "@/public/logos/facebook.png"
 import instalogo from "@/public/logos/instagram.png"
 import classes from "./video-page.module.css"
 import YTVideo from "../yt-video/yt-video.component"
-import { videoAlbums } from "@/assets/imageLinks"
-import { isEmpty } from "@/utils/utils"
-import Image from "next/image"
 import { MoonLoader } from "react-spinners"
 import { notFound } from "next/navigation"
 
@@ -15,7 +16,6 @@ const override = {
     margin: "0 auto",
     borderColor: "red",
   };
-
 
 
 const VideoPage = ({videoAlbum}) => {

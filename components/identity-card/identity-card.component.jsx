@@ -1,6 +1,6 @@
 import IDAbout from "../id-about/id-about.component"
-import classes from "./identity-card.module.css"
 import Image from "next/image"
+import classes from "./identity-card.module.css"
 
 const imgStyles = {
     height : "100%",

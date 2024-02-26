@@ -1,9 +1,9 @@
 'use client'
 import { categoryCardInfo} from "@/assets/imageLinks"
-import classes from "./category-card.module.css"
 import Image from "next/image"
-import { Fade } from "react-awesome-reveal"
 import Link from "next/link"
+import { Fade } from "react-awesome-reveal"
+import classes from "./category-card.module.css"
 
 
 const imageStyle = {

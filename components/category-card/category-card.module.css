@@ -1,7 +1,6 @@
 .category_card_wrapper{
     width: 85%;
     margin: 0.25em auto;
-    /* padding: 1.5em; */
     display: flex;
     flex-direction: column;
     gap: 0.25em;
@@ -17,7 +16,6 @@
 .category_card_img{
     width: 100%;
     height: auto;
-    /* border-radius: 5px; */
 }
 .overlay {
     position: absolute;
@@ -30,11 +28,9 @@
     flex-direction: column;
     align-items: center;
     color: #FBFCF9;
-    /* border-radius: 5px; */
 }
 
 .fade{
-    /* background-color: blueviolet; */
     width: 100%;
     height: 100%;
 }
@@ -52,7 +48,6 @@
 }
 
 .det_gradient{
-    /* background-color: chocolate; */
     height: 100%;
     width: 35%;
     display: flex;
@@ -68,7 +63,6 @@
 .category_logo_container{
     width: 70%;
     height: auto;
-    /* background-color: brown; */
 }
 
 .category_card_desc{
@@ -103,13 +97,9 @@
     .overlay p{
         width: 90%;
     }
-    /* .services_map{
-        display: none;
-    } */
     .category_logo_container{
         width: 100%;
         height: auto;
-        /* background-color: brown; */
     }
 }
 

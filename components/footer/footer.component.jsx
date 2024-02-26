@@ -1,3 +1,4 @@
+import Image from "next/image"
 import locationLogo from "@/public/logos/location.png"
 import phoneLogo from "@/public/logos/telephone.png"
 import mailLogo from "@/public/logos/gmail.png"
@@ -5,7 +6,7 @@ import facebookLogo from "@/public/logos/facebook.png"
 import instagramLogo from "@/public/logos/instagram.png"
 import youtubeLogo from "@/public/logos/youtube.png"
 import classes from "./footer.module.css"
-import Image from "next/image"
+
 
 const Footer = () => {
     const d = new Date(Date.now())
