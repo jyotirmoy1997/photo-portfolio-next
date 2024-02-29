@@ -52,14 +52,14 @@ export const categoryCardInfo = [
 
 export const categoryCardInfoMob = [
     {
-        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708797902/Photography%20Website/category-card-mob/bibahooscapes_i3ovkp.png",
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1709100244/Photography%20Website/category-card-mob/bibahoscapes_ch4nzk.png",
         routeLink : "/bibahoscapes",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708839554/Photography%20Website/category-card-mob/test3_olrc2q_1_kyhwy0_m4dog6_sz9u0l.jpg"
     },
     {
-        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708797902/Photography%20Website/category-card-mob/pixelperfect_uj8aac.png",
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1709101760/Photography%20Website/category-card-mob/pixelperfect_wvfusx.png",
         routeLink : "/pixelperfect",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708839554/Photography%20Website/category-card-mob/ADP_3645_caql0g_agxvrw.jpg"
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1709100431/Photography%20Website/category-card-mob/ADP_3645_caql0g_agxvrw_mg88oq.jpg"
     },
     {
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708797904/Photography%20Website/category-card-mob/brandstand_armbwc.png",
@@ -69,7 +69,7 @@ export const categoryCardInfoMob = [
     {
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708797903/Photography%20Website/category-card-mob/mediapedia_tbcbnc.png",
         routeLink : "/mediapedia",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708839554/Photography%20Website/category-card-mob/test6_szp22j_1_nury0o_dmg9c1_m9vhwc.jpg"
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1709100432/Photography%20Website/category-card-mob/test6_szp22j_1_nury0o_dmg9c1_m9vhwc_mhczbl.jpg"
     }
 ]
 
