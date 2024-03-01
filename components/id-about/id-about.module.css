@@ -4,6 +4,10 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0 auto;
+    /* text-align: center; */
+}
+
+.id_about h2{
     text-align: center;
 }
 
@@ -16,5 +20,8 @@
 @media (max-width : 850px){
     .id_about{
         width: 90%;
+    }
+    .id_about{
+        text-align: center;
     }
 }

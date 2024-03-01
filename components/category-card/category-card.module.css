@@ -4,6 +4,18 @@
     display: flex;
     flex-direction: column;
     gap: 0.25em;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.card_desc{
+    font-family: var(--font-cormorant-garamond);
+    font-size: 18px;
+}
+
+.services_map{
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 400;
 }
 
 
@@ -65,11 +77,6 @@
     height: auto;
 }
 
-.category_card_desc{
-    width: 60%;
-    background-color: brown;
-}
-
 .alternate_det_gradient_even{
     margin-left: 65%;
 }
@@ -77,15 +84,6 @@
     margin-right: 65%;
 }
 
-.category_card_logo_img_container{
-    background-color: brown;
-
-}
-
-.category_card_desc{
-    background-color: brown;
-    width: 100%;
-}
 
 @media (max-width : 1200px){
     .category_card_wrapper{

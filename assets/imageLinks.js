@@ -10,7 +10,7 @@ export const aboutInfo = [
     },
     {
         authName : "Shuvrajyoti Das",
-        portfolioImage : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704282141/Photography%20Website/About/port3_tlafvf_1_pql5ot.jpg",
+        portfolioImage : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1709308997/Photography%20Website/About/res_urjgxa.jpg",
         socialHandles : {
             fb : "https://www.facebook.com/people/Shuvrajyoti-Das/pfbid02FV1sv22tb4oYt73M7wD8aqabBfkT8VuwXPeihFaD4QmuYgJR8e4GwKKxzTA4ZVw2l/",
             insta : "https://www.instagram.com/shuvrajyoti_das/"

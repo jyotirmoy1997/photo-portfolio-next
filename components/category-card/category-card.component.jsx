@@ -57,7 +57,7 @@ const CategoryCard = () => {
                                             </Link>
                                             
                                         </div>
-                                        <p>{card.description}</p>
+                                        <p className={classes.card_desc}>{card.description}</p>
                                         {
                                             card.services.map((service, index) => <h3 className={classes.services_map} key={index}>{service}</h3>)
                                         }
