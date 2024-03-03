@@ -32,10 +32,10 @@ const CategoryCardMob = () => {
                                                 alt=""
                                                 width={0}
                                                 height={0}
-                                                sizes="50vw"
+                                                sizes="100vw"
                                                 style={imageStyle}
                                                 priority
-                                                quality={50}
+                                                quality={100}
                                             />
                                     </Link>
                                     
@@ -46,10 +46,10 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="50vw"
+                                            sizes="100vw"
                                             style={imageStyle}
                                             priority
-                                            quality={50}
+                                            quality={100}
                                         />
                                     </div>
                                 </div>
@@ -67,10 +67,10 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="50vw"
+                                            sizes="100vw"
                                             style={imageStyle}
                                             priority
-                                            quality={50}
+                                            quality={100}
                                         />
                                     </div>
                                     <Link href={el.routeLink} className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_banner}`}>
@@ -80,10 +80,10 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="50vw"
+                                            sizes="100vw"
                                             style={imageStyle}
                                             priority
-                                            quality={50}
+                                            quality={100}
                                         />
                                     </Link>
                                 </div>
@@ -105,10 +105,10 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="50vw"
+                                            sizes="100vw"
                                             style={imageStyle}
                                             priority
-                                            quality={50}
+                                            quality={100}
                                         />
                                     </Link>
                                     <div className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_portfolio}`}>
