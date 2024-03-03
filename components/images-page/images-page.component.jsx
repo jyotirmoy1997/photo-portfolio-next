@@ -80,10 +80,11 @@ const ImagePage = ({imageAlbum}) => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="100vw"
+                                            sizes="60vw"
                                             style={imageStyle}
                                             priority
-                                            quality={100}
+                                            quality={60}
+                                            unoptimized
                                              />
                                     </div>
                                 )

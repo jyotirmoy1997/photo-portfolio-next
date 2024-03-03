@@ -50,9 +50,9 @@ const CategoryCard = () => {
                                                     style={imageStyle} 
                                                     width={0}
                                                     height={0} 
-                                                    sizes="100vw" 
+                                                    sizes="20vw" 
                                                     priority
-                                                    quality={100} 
+                                                    quality={20} 
                                                 />
                                             </Link>
                                             

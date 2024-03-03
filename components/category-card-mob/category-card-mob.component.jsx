@@ -32,10 +32,10 @@ const CategoryCardMob = () => {
                                                 alt=""
                                                 width={0}
                                                 height={0}
-                                                sizes="100vw"
+                                                sizes="50vw"
                                                 style={imageStyle}
                                                 priority
-                                                quality={100}
+                                                quality={50}
                                             />
                                     </Link>
                                     
@@ -46,10 +46,10 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="100vw"
+                                            sizes="50vw"
                                             style={imageStyle}
                                             priority
-                                            quality={100}
+                                            quality={50}
                                         />
                                     </div>
                                 </div>
@@ -67,10 +67,10 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="100vw"
+                                            sizes="50vw"
                                             style={imageStyle}
                                             priority
-                                            quality={100}
+                                            quality={50}
                                         />
                                     </div>
                                     <Link href={el.routeLink} className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_banner}`}>
@@ -80,10 +80,10 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="100vw"
+                                            sizes="50vw"
                                             style={imageStyle}
                                             priority
-                                            quality={100}
+                                            quality={50}
                                         />
                                     </Link>
                                 </div>
@@ -105,10 +105,10 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="100vw"
+                                            sizes="50vw"
                                             style={imageStyle}
                                             priority
-                                            quality={100}
+                                            quality={50}
                                         />
                                     </Link>
                                     <div className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_portfolio}`}>
@@ -118,10 +118,10 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="100vw"
+                                            sizes="30vw"
                                             style={imageStyle}
                                             priority
-                                            quality={100}
+                                            quality={30}
                                         />
                                     </div>
                                 </div>
