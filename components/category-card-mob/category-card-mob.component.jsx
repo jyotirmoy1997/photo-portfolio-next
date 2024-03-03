@@ -118,10 +118,10 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="30vw"
+                                            sizes="100vw"
                                             style={imageStyle}
                                             priority
-                                            quality={30}
+                                            quality={100}
                                         />
                                     </div>
                                 </div>
