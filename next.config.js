@@ -9,7 +9,7 @@ const nextConfig = {
             pathname: '/dst1eqcmo/**',
           },
         ],
-      unoptimized : true
+      // unoptimized : true
       },
       // optimizeFonts: false,
 }
