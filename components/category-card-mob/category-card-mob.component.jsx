@@ -105,10 +105,8 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="100vw"
                                             style={imageStyle}
                                             priority
-                                            quality={100}
                                         />
                                     </Link>
                                     <div className={`${classes.cat_card_mob_img_wrapper} ${classes.cat_card_mob_portfolio}`}>
@@ -118,10 +116,8 @@ const CategoryCardMob = () => {
                                             alt=""
                                             width={0}
                                             height={0}
-                                            sizes="100vw"
                                             style={imageStyle}
                                             priority
-                                            quality={100}
                                         />
                                     </div>
                                 </div>
@@ -132,5 +128,17 @@ const CategoryCardMob = () => {
         </div>
     )
 }
+
+{/* <Image 
+    className={classes.cat_card_mob_img} 
+    src={el.logo} 
+    alt=""
+    width={0}
+    height={0}
+    sizes="50vw"
+    style={imageStyle}
+    priority
+    quality={20}
+/> */}
 
 export default CategoryCardMob

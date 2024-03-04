@@ -10,7 +10,8 @@ const CoverPage = () => {
                     width : "100%",
                     height : "auto"
                 }}
-                priority />
+                priority
+                 />
             </div>
         </div>
     )

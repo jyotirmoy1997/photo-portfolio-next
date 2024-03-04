@@ -20,7 +20,7 @@ const CarouselComponent = () => {
 
                 return index+1;
             })
-        }, 3000)
+        }, 5000)
 
         return () => clearInterval(interval)
     }, [])
@@ -51,7 +51,8 @@ const CarouselComponent = () => {
                         className={classes.carousel_image} 
                         src={imgURL} width={5568} 
                         height={2784} alt="" 
-                        priority style={{translate : `${-100 * imageIndex}%`}} 
+                        priority style={{translate : `${-100 * imageIndex}%`}}
+                        unoptimized={false}
                     />)
                 }
             </div>
