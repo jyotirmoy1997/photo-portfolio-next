@@ -52,7 +52,6 @@ const CarouselComponent = () => {
                         src={imgURL} width={5568} 
                         height={2784} alt="" 
                         priority style={{translate : `${-100 * imageIndex}%`}}
-                        unoptimized={false}
                     />)
                 }
             </div>
