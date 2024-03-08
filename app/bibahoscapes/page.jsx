@@ -3,7 +3,7 @@ import { BBSThumbnails } from "@/assets/imageLinks"
 import bbsLogo from "@/public/logos/BibahoScapes.png"
 
 export const metadata = {
-    title: 'BibahoScapes',
+    title: 'Bibaho Scapes',
     description: 'Capturing the Elegance of Your Love Story: Explore our Exquisite Wedding Photography Services',
 }
 
