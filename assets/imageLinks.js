@@ -826,6 +826,10 @@ export const videoAlbums = {
         text : "AMI JE TOMAR",
         link : "https://www.youtube.com/embed/XuL5UDrJtjw?si=q7VryULZuXtJXQHc"
     },
+    "neelanjonoghono" : {
+        text : "NEEL ANJONOGHONO",
+        link : "https://www.youtube.com/embed/kZ9bfS2g1II?si=x7eS3kaqkAa-naiT"
+    },
 }
 
 
@@ -1181,5 +1185,11 @@ export const MPThumbnails = [
         text : "AMI JE TOMAR",
         id : "amijetomar",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704627546/Photography%20Website/ALBUM/THUMB/MediaPedia/test6_szp22j_1_nury0o_iehrrz.jpg",
+    },
+    {
+        id : 7,
+        text : "NEEL ANJONOGHONO",
+        id : "neelanjonoghono",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1717392063/Photography%20Website/ALBUM/THUMB/MediaPedia/Neel-Anjonoghono-_Final-Thumbnail_1_vwjufm.jpg",
     }
 ]
