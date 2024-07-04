@@ -799,6 +799,34 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708680488/Photography%20Website/ALBUM/BibahoScapes/LataandBiplab/ADP_4519_t5nhiu.jpg"
         ]
     },
+    "shuvrajyotidoyelprewed" : {
+        text : "SHUVRAJYOTI & DOYEL'S PRE-WEDDING",
+        category : "Pre-Wedding Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1719420314/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/RAJ_2803_zkdr5n.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1719420314/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/ADP_8364_illkpn.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1719420315/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/ADP_8363_veu7ol.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1719420316/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/ADP_8367_w1em4r.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1719420105/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/ADP_8353_hswvqg.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1719420314/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/ADP_8375_b5vtqf.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1719420313/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/ADP_8355_au8nig.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1719420312/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/ADP_8351_copy_smirzc.jpg",
+        ]
+    },
+    "joydevanamika" : {
+        text : "JOYDEV & ANAMIKA'S WEDDING",
+        category : "Wedding Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720072265/Photography%20Website/ALBUM/BibahoScapes/JoydevAnamika/_CCS4024_j2yhzp.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720072268/Photography%20Website/ALBUM/BibahoScapes/JoydevAnamika/ADP_6972_xihodg.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720072266/Photography%20Website/ALBUM/BibahoScapes/JoydevAnamika/_CCS4912_kgx1y6.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720072267/Photography%20Website/ALBUM/BibahoScapes/JoydevAnamika/_CCS4914_hchztx.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720072267/Photography%20Website/ALBUM/BibahoScapes/JoydevAnamika/_CCS5290_zcxpj6.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720072267/Photography%20Website/ALBUM/BibahoScapes/JoydevAnamika/_CCS5299_imy04n.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720072267/Photography%20Website/ALBUM/BibahoScapes/JoydevAnamika/_CCS5292_zdpetn.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720072272/Photography%20Website/ALBUM/BibahoScapes/JoydevAnamika/ADP_7814_dpxv0z.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -846,6 +874,11 @@ export const BBSThumbnails = [
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703588075/Photography%20Website/ALBUM/THUMB/BibahoScapes/GouravmoyPriyanka/ADP_1247_copy_kvaqoq.jpg",
     },
     {
+        text : "Shuvrajyoti & Doyel's Pre-Wedding",
+        id : "shuvrajyotidoyelprewed",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720074269/Photography%20Website/ALBUM/THUMB/BibahoScapes/ShuvrajyotiDoyelPreWed/ADP_8363_adhsah.jpg",
+    },
+    {
         text : "Koushik & Priyanka's Pre-Wedding",
         id : "koushikpriyanka",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587558/Photography%20Website/ALBUM/THUMB/BibahoScapes/KashiPriyanka/_ADP3641_uax6xk_vkiu2n.jpg",
@@ -885,6 +918,11 @@ export const BBSThumbnails = [
         text : "Lata and Biplab's Wedding",
         id : "lataandbiplab",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708688861/Photography%20Website/ALBUM/THUMB/BibahoScapes/LataBiplab/ADP_4550_bnw_sglkak_freema.jpg",
+    },
+    {
+        text : "Joydev and Anamika's Wedding",
+        id : "joydevanamika",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720075003/Photography%20Website/ALBUM/THUMB/BibahoScapes/JoydevAnamika/ADP_7813_hsxmum.jpg",
     },
 ]
 
