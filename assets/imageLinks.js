@@ -827,6 +827,18 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720072272/Photography%20Website/ALBUM/BibahoScapes/JoydevAnamika/ADP_7814_dpxv0z.jpg"
         ]
     },
+    "adrijaportfolio" : {
+        text : "PORTFOLIO ADRIJA",
+        category : "Portfolio Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722411938/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ADRIJA/ADP_8912_zbbfgt.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722411937/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ADRIJA/ADP_8942_q9wfgv.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722411938/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ADRIJA/ADP_8925_op7acf.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722411939/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ADRIJA/ADP_8900_rkylpc.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722411939/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ADRIJA/ADP_8951_hglc8w.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722411938/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ADRIJA/ADP_8940_mxkp9q.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -1158,6 +1170,12 @@ export const PPThumbnails = [
         text : "Portfolio - Sahil Dutta",
         id : "sahilduttaportfolio",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704695663/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/SAHIL%20DUTTA/thumb_jwexrs.jpg",
+    },
+    {
+        id : 42,
+        text : "Portfolio - Adrija",
+        id : "adrijaportfolio",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722489637/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/ADRIJA/ADP_8951_hglc8w_yvnppd.jpg",
     },
 
 
