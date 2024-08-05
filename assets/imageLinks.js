@@ -870,6 +870,10 @@ export const videoAlbums = {
         text : "NEEL ANJONOGHONO",
         link : "https://www.youtube.com/embed/kZ9bfS2g1II?si=x7eS3kaqkAa-naiT"
     },
+    "srabondharay" : {
+        text : "SRABON DHARAY",
+        link : "https://www.youtube.com/embed/782p2KUqaCY?si=1BT-lZrye1L1zM7J"
+    }
 }
 
 
@@ -1247,5 +1251,11 @@ export const MPThumbnails = [
         text : "NEEL ANJONOGHONO",
         id : "neelanjonoghono",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1717392063/Photography%20Website/ALBUM/THUMB/MediaPedia/Neel-Anjonoghono-_Final-Thumbnail_1_vwjufm.jpg",
+    },
+    {
+        id : 8,
+        text : "SRABON DHARAY",
+        id : "srabondharay",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722613345/Photography%20Website/ALBUM/THUMB/MediaPedia/Thumbnail_fvicr3.jpg",
     }
 ]
