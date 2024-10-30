@@ -873,7 +873,11 @@ export const videoAlbums = {
     "srabondharay" : {
         text : "SRABON DHARAY",
         link : "https://www.youtube.com/embed/782p2KUqaCY?si=1BT-lZrye1L1zM7J"
-    }
+    },
+    "mayerjagoron" : {
+        text : "MAYER JAGORON",
+        link : "https://www.youtube.com/embed/ioq84Fq4N5w?si=evk-kqYDFtHzWmjw"
+    },
 }
 
 
@@ -1257,5 +1261,11 @@ export const MPThumbnails = [
         text : "SRABON DHARAY",
         id : "srabondharay",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722613345/Photography%20Website/ALBUM/THUMB/MediaPedia/Thumbnail_fvicr3.jpg",
+    },
+    {
+        id : 9,
+        text : "MAYER JAGORON",
+        id : "mayerjagoron",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1730284207/Photography%20Website/ALBUM/THUMB/MediaPedia/Untitled-1_bsvf5f.png",
     }
 ]
