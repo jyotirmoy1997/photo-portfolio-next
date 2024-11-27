@@ -839,6 +839,32 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722411938/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ADRIJA/ADP_8940_mxkp9q.jpg"
         ]
     },
+    "meghnadiwali" : {
+        text : "DIWALI - MEGHNA",
+        category : "Portfolio Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732214716/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/MEGHNA_DIWALI/Meghna_Diwali_15_c7wz7c.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732214716/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/MEGHNA_DIWALI/Meghna_Diwali_13_pfebme.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732214717/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/MEGHNA_DIWALI/Meghna_Diwali_8_liia2v.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732214717/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/MEGHNA_DIWALI/Meghna_Diwali_2_lr1tyn.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732214717/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/MEGHNA_DIWALI/Meghna_Diwali_1_wugbcw.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732214716/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/MEGHNA_DIWALI/Meghna_Diwali_18_uab3vg.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732214716/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/MEGHNA_DIWALI/Meghna_Diwali_3_jirrsk.jpg"
+        ]
+    },
+    "anamikaportfolio" : {
+        text : "PORTFOLIO - ANAMIKA",
+        category : "Portfolio Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1729150411/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ANAMIKA/MAMON_8_oxyu9x.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1729150411/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ANAMIKA/MAMON_1_cv4i4y.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1729150411/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ANAMIKA/MAMON_3_cky5kh.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1729150412/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ANAMIKA/MAMON_7_pwdywq.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1729150412/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ANAMIKA/MAMON_12_xbj3w1.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1729150412/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ANAMIKA/MAMON_5_wk9x1o.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1729150411/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ANAMIKA/MAMON_9_y7el44.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -877,6 +903,10 @@ export const videoAlbums = {
     "mayerjagoron" : {
         text : "MAYER JAGORON",
         link : "https://www.youtube.com/embed/ioq84Fq4N5w?si=evk-kqYDFtHzWmjw"
+    },
+    "amijetomar2" : {
+        text : "AMI JE TOMAR 3.0",
+        link : "https://www.youtube.com/embed/jyhX_GcBA2g?si=fWBVGwU8HJ8G9wGL"
     },
 }
 
@@ -1185,6 +1215,18 @@ export const PPThumbnails = [
         id : "adrijaportfolio",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1722489637/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/ADRIJA/ADP_8951_hglc8w_yvnppd.jpg",
     },
+    {
+        id : 43,
+        text : "Diwali - Meghna",
+        id : "meghnadiwali",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732684834/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/MEGHNA%20DIWALI/Untitled_Project_uqhmuw.jpg",
+    },
+    {
+        id : 44,
+        text : "Portfolio - Anamika",
+        id : "anamikaportfolio",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1729150412/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ANAMIKA/MAMON_10_gratcy.jpg",
+    },
 
 
     // Fashion
@@ -1239,7 +1281,7 @@ export const MPThumbnails = [
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704281952/Photography%20Website/ALBUM/THUMB/MediaPedia/shyama_maa_gaos2e_smtzw2.jpg",
     },
     {
-        id : 5,
+        id : 5, 
         text : "LEHRA DO",
         id : "lehrado",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703604570/Photography%20Website/ALBUM/THUMB/MediaPedia/RAJ_0924_1_dlrxus.jpg",
@@ -1267,5 +1309,11 @@ export const MPThumbnails = [
         text : "MAYER JAGORON",
         id : "mayerjagoron",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1730284207/Photography%20Website/ALBUM/THUMB/MediaPedia/Untitled-1_bsvf5f.png",
+    },
+    {
+        id : 10,
+        text : "AMI JE TOMAR 3.0",
+        id : "amijetomar2",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732186234/Photography%20Website/ALBUM/THUMB/MediaPedia/AMI_JE_TOMAR_Final_Thumb_wfmmkr.jpg",
     }
 ]
