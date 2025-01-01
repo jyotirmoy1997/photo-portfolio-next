@@ -35,6 +35,11 @@
     text-justify: auto;
 }
 
+.footer_info p{
+    text-align: justify;
+    width: 90%;
+}
+
 .footer_contact_wrapper{
     width: 35%;
 }

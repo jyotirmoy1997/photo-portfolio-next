@@ -54,10 +54,18 @@ const VideoPage = ({videoAlbum}) => {
                             <h6>Videography</h6>
                         </div>
                         <div className={classes.video_desc_content}>
-                            <h5>Links</h5>
+                            <h5>Social Links</h5>
                             <div className={classes.video_desc_link_container}>
+                            <a href="https://www.facebook.com/profile.php?id=100084598611956"
+                               target="_blank"
+                            > 
                                 <Image src={fblogo.src} alt="" width={30} height={30} />
+                            </a>
+                            <a href="https://www.instagram.com/dandd.productions/"
+                               target="_blank"
+                            > 
                                 <Image src={instalogo.src} alt="" width={30} height={30} />
+                            </a>
                             </div>
                         </div>
                     </div>

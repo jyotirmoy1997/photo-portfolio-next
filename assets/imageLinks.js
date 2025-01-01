@@ -865,6 +865,18 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1729150411/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ANAMIKA/MAMON_9_y7el44.jpg"
         ]
     },
+    "doyelconceptual" : {
+        text : "CONCEPTUAL - DOYEL",
+        category : "Conceptual Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732986314/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/AMi%20JE%20TOMAR/DSC01676-Recovered_zxzp2z.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732986314/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/AMi%20JE%20TOMAR/DSC01687_vjxuje.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732986314/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/AMi%20JE%20TOMAR/DSC01672_zgacsf.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732986316/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/AMi%20JE%20TOMAR/DSC01666_ynvup4.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732986315/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/AMi%20JE%20TOMAR/DSC01673_buxchy.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732986320/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/AMi%20JE%20TOMAR/DSC01678_vlaste.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -1164,6 +1176,13 @@ export const PPThumbnails = [
         id : "stylemaniac",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704651648/Photography%20Website/ALBUM/THUMB/PixelPerfect/Conceptual/Style%20Maniac/ADP_4541_dfwjbm_jxnsbd.jpg",
     },
+    {
+        id : 28,
+        text : "Conceptual - Doyel",
+        id : "doyelconceptual",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732986314/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/AMi%20JE%20TOMAR/DSC01687_vjxuje.jpg",
+    },
+
 
 
     // Portfolio 

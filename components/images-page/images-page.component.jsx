@@ -167,7 +167,7 @@ const ImagePage = ({ imageAlbum }) => {
                 <h6>{currAlbumInfo.category}</h6>
               </div>
               <div className={classes.image_content}>
-                <h5>Links</h5>
+                <h5>Social Links</h5>
                 <div className={classes.image_desc_link_container}>
                   <a
                     href="https://www.facebook.com/profile.php?id=100084598611956"
