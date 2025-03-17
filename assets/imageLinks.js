@@ -877,6 +877,18 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732986320/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/AMi%20JE%20TOMAR/DSC01678_vlaste.jpg"
         ]
     },
+    "debasmitaportfolio" : {
+        text : "PORTFOLIO - DEBASMITA",
+        category : "Portfolio Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1739889853/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBASMITA/DEBOSHMITA_4_wf86dt.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1739889853/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBASMITA/DEBOSHMITA_6_fujyp2.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1739889852/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBASMITA/DEBOSHMITA_1_j5uqvy.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1739889852/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBASMITA/DEBOSHMITA_5_uc2i5m.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1739889852/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBASMITA/DEBOSHMITA_ccpjys.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1739889853/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBASMITA/DEBOSHMITA_3_bpsqsq.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -919,6 +931,10 @@ export const videoAlbums = {
     "amijetomar2" : {
         text : "AMI JE TOMAR 3.0",
         link : "https://www.youtube.com/embed/jyhX_GcBA2g?si=fWBVGwU8HJ8G9wGL"
+    },
+    "fagunerichonde" : {
+        text : "Faguneri Chonde",
+        link : "https://www.youtube.com/embed/h3Hg8ONPPbw?si=sXaJUm3q9KYkkl0S"
     },
 }
 
@@ -1246,6 +1262,12 @@ export const PPThumbnails = [
         id : "anamikaportfolio",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1729150412/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ANAMIKA/MAMON_10_gratcy.jpg",
     },
+    {
+        id : 45,
+        text : "Portfolio - Debasmita",
+        id : "debasmitaportfolio",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1739889853/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBASMITA/DEBOSHMITA_2_yh2jok.jpg",
+    },
 
 
     // Fashion
@@ -1334,5 +1356,11 @@ export const MPThumbnails = [
         text : "AMI JE TOMAR 3.0",
         id : "amijetomar2",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1732186234/Photography%20Website/ALBUM/THUMB/MediaPedia/AMI_JE_TOMAR_Final_Thumb_wfmmkr.jpg",
+    },
+    {
+        id : 11,
+        text : "Faguneri Chonde",
+        id : "fagunerichonde",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1742196027/Photography%20Website/ALBUM/THUMB/MediaPedia/Untitled-1_1_udkn4c.jpg",
     }
 ]
