@@ -30,7 +30,7 @@ const Footer = () => {
                             <a href="https://www.instagram.com/dandd.productions/" target="_blank">
                                 <Image src={instagramLogo.src} alt="insta-logo" height={30} width={30}/>
                             </a>
-                            <a href="https://www.youtube.com/@ddproductions664" target="_blank">
+                            <a href="https://www.youtube.com/@dandd_productions" target="_blank">
                                 <Image src={youtubeLogo.src} alt="yt-logo" height={30} width={30}/>
                             </a>
                         </div>
