@@ -889,6 +889,33 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1739889853/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBASMITA/DEBOSHMITA_3_bpsqsq.jpg"
         ]
     },
+    "indraniportfolio" : {
+        text : "PORTFOLIO - INDRANI",
+        category : "Portfolio Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138951/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/INDRANI/_ADP2470_dohoka.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138950/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/INDRANI/_ADP2429_j6tnce.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138952/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/INDRANI/_ADP2486_nuczn9.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138951/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/INDRANI/_ADP2478_awgsnd.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138951/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/INDRANI/_ADP2376_hjvzkp.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138952/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/INDRANI/_ADP2420_hbll1w.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138951/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/INDRANI/_ADP2411_xccuir.jpg"
+        ]
+    },
+    "diyaportfolio" : {
+        text : "PORTFOLIO - DIYA",
+        category : "Portfolio Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138790/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2785-Recovered_hmsnjz.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138789/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2707_bepdfi.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138789/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2695_j0etwd.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138788/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2666_fqbvs1.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138788/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2668_zgpkrh.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138789/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2701_guexdu.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138789/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2780-Recovered_hei1tk.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138788/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2671_jdwatr.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -1267,6 +1294,18 @@ export const PPThumbnails = [
         text : "Portfolio - Debasmita",
         id : "debasmitaportfolio",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1739889853/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DEBASMITA/DEBOSHMITA_2_yh2jok.jpg",
+    },
+    {
+        id : 46,
+        text : "Portfolio - Indrani",
+        id : "indraniportfolio",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743397555/Photography%20Website/ALBUM/THUMB/PixelPerfect/Portfolio/Indrani/photo-collage.png_1_o8rpez.png",
+    },
+    {
+        id : 47,
+        text : "Portfolio - Diya",
+        id : "diyaportfolio",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138789/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2701_guexdu.jpg",
     },
 
 
