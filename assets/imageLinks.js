@@ -218,18 +218,6 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702917160/Photography%20Website/ALBUM/BibahoScapes/ArnobArpita/_MG_0870_edited_lnkgbo.jpg"
         ]
     },
-    "rectorjaya" : {
-        text : "RECTOR & JAYA",
-        category : "Wedding Photography",
-        images : [
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702917458/Photography%20Website/ALBUM/BibahoScapes/RectorJaya/_DSC0214_copy_poab5d.jpg",
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702917456/Photography%20Website/ALBUM/BibahoScapes/RectorJaya/_DSC0240_copy_jsv6qp.jpg",
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702917454/Photography%20Website/ALBUM/BibahoScapes/RectorJaya/_DSC0229_copy_k3t8py.jpg",
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702917455/Photography%20Website/ALBUM/BibahoScapes/RectorJaya/_DSC0044_copy_hjfsag.jpg",
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702917447/Photography%20Website/ALBUM/BibahoScapes/RectorJaya/RAJ_0100_uyhlbp.jpg",
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1702917449/Photography%20Website/ALBUM/BibahoScapes/RectorJaya/_DSC0246_copy_pjdlpf.jpg"
-        ]
-    },
     "arpitabridal" : {
         text : "ARPITA",
         category : "Bridal Photography",
@@ -916,6 +904,32 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138788/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2671_jdwatr.jpg"
         ]
     },
+    "ayantikashubham" : {
+        text : "AYANTIKA & SHUBHAM",
+        category : "Wedding Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394158/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/ADP_7244_ntrmwj.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394152/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0507_daeuna.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394158/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/ADP_7274_k2kfin.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394157/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/ADP_7233_tvqasl.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394154/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0741_-_Copy_ymmc6o.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394171/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/ADP_7478_t3clxr.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394152/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0665_omejhx.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394170/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/ADP_7441_qjzfat.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394163/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/ADP_7431_lzc7yn.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394159/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0784_yt9xde.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394156/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0795_px5lb4.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394155/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0793_wkoquh.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394155/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0778_wy1uyd.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394155/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0767_uz9zsc.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394171/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/ADP_7611_rlp27g.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394171/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/ADP_7549_qhsrdk.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394177/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/ADP_7761_xnfeno.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394156/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_1065_beelua.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394157/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_1286_dt9z9v.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394156/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0973_xzkxxu.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -983,11 +997,6 @@ export const BBSThumbnails = [
         id : "shuvrajyotidoyelprewed",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720074269/Photography%20Website/ALBUM/THUMB/BibahoScapes/ShuvrajyotiDoyelPreWed/ADP_8363_adhsah.jpg",
     },
-    {
-        text : "Koushik & Priyanka's Pre-Wedding",
-        id : "koushikpriyanka",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587558/Photography%20Website/ALBUM/THUMB/BibahoScapes/KashiPriyanka/_ADP3641_uax6xk_vkiu2n.jpg",
-    },
     
     {
         text : "Anamika & Papai's Wedding",
@@ -995,25 +1004,17 @@ export const BBSThumbnails = [
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587062/Photography%20Website/ALBUM/THUMB/BibahoScapes/AnamikaPapai/_ADP3258_owa8hw_c2du0r.jpg",
     },
     {
+        text : "Ayantika & Shubham's Wedding",
+        id : "ayantikashubham",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394156/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0973_xzkxxu.jpg",
+    },
+
+    {
         text : "Abhijeet & Shrestha's Wedding",
         id : "abhijeetandshrestha",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704724829/Photography%20Website/ALBUM/BibahoScapes/AbhijeetandShrestha/_DSC34233_h3871r.jpg",
     },
-    {
-        text : "Jayati's Wedding",
-        id : "jayati",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704866417/Photography%20Website/ALBUM/THUMB/BibahoScapes/Jayati/ADP_4019_xwr4qk.jpg",
-    },
-    {
-        text : "Arnob & Arpita's Wedding",
-        id : "arnobarpita",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587997/Photography%20Website/ALBUM/THUMB/BibahoScapes/ArnobArpita/_DSC0485_EDITED_yqp4ma.jpg",
-    },
-    {
-        text : "Rector & Jaya's Wedding",
-        id : "rectorjaya",
-        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703588490/Photography%20Website/ALBUM/THUMB/BibahoScapes/RectorJaya/_DSC0240_copy_jsv6qp_upz44k.jpg",
-    },
+    
     {
         text : "Debattam and Samhati's Wedding",
         id : "debattamandsamhati",
@@ -1028,6 +1029,21 @@ export const BBSThumbnails = [
         text : "Joydev and Anamika's Wedding",
         id : "joydevanamika",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720075003/Photography%20Website/ALBUM/THUMB/BibahoScapes/JoydevAnamika/ADP_7813_hsxmum.jpg",
+    },
+    {
+        text : "Koushik & Priyanka's Pre-Wedding",
+        id : "koushikpriyanka",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587558/Photography%20Website/ALBUM/THUMB/BibahoScapes/KashiPriyanka/_ADP3641_uax6xk_vkiu2n.jpg",
+    },
+    {
+        text : "Jayati's Wedding",
+        id : "jayati",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1704866417/Photography%20Website/ALBUM/THUMB/BibahoScapes/Jayati/ADP_4019_xwr4qk.jpg",
+    },
+    {
+        text : "Arnob & Arpita's Wedding",
+        id : "arnobarpita",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587997/Photography%20Website/ALBUM/THUMB/BibahoScapes/ArnobArpita/_DSC0485_EDITED_yqp4ma.jpg",
     },
 ]
 

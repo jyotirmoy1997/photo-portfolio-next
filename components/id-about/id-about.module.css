@@ -11,9 +11,6 @@
     text-align: center;
 }
 
-.id_about p{
-    text-align: justify;
-}
 
 .id_about_logos{
     display: flex;
