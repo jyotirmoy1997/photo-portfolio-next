@@ -930,6 +930,22 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744394156/Photography%20Website/ALBUM/BibahoScapes/AyantikaShubham/TSP_0973_xzkxxu.jpg"
         ]
     },
+    "ishitaportfolio" : {
+        text : "PORTFOLIO - ISHITA",
+        category : "Portfolio Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744436306/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ISHITA/_ADP3651_ijmvyo.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744436307/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ISHITA/_ADP3656_zok8wi.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744436306/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ISHITA/_ADP3641_e3ayxs.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744436306/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ISHITA/_ADP3601_zqj11j.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744436306/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ISHITA/_ADP3610_omir0j.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744436305/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ISHITA/_ADP3635_xvytfl.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744436306/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ISHITA/_ADP3584_wffy3v.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744436305/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ISHITA/_ADP3599_tcr1xw.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744436305/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ISHITA/_ADP3587_ojuokc.jpg"
+        ]
+    },
+
 }
 
 export const videoAlbums = {
@@ -1322,6 +1338,12 @@ export const PPThumbnails = [
         text : "Portfolio - Diya",
         id : "diyaportfolio",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1743138789/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/DIYA/_ADP2701_guexdu.jpg",
+    },
+    {
+        id : 48,
+        text : "Portfolio - Ishita",
+        id : "ishitaportfolio",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1744436306/Photography%20Website/ALBUM/PiexelPerfect/PORTFOLIO/ISHITA/_ADP3584_wffy3v.jpg",
     },
 
 

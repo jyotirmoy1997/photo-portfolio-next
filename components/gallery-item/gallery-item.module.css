@@ -6,9 +6,8 @@
     
 }
 
-.image_container{
+/* .image_container{
     height: auto;
-    
     max-width: 1300px;
     width: 95%;
     display: flex;
@@ -16,7 +15,20 @@
     justify-content: space-evenly;
     gap: 10px;
     margin: 0 auto;
+} */
+
+.image_container {
+    height: auto;
+    max-width: 1300px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* <- change this */
+    gap: 15px;
+    margin: 0 auto;
 }
+
+
 
 
 .image_dummy{
