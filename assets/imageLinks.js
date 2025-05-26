@@ -74,11 +74,12 @@ export const categoryCardInfoMob = [
 ]
 
 export const carouselImages = [
-        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708707468/Photography%20Website/Carousel/_CCS2900_mnt5op.jpg",
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746278113/Photography%20Website/Carousel/BGN_0642_e7w6fk.jpg",
         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135542/Photography%20Website/Carousel/img7_ep8njv.jpg",
-        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708707279/Photography%20Website/Carousel/ADP_4642_bnw_lntehx.jpg",
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708707468/Photography%20Website/Carousel/_CCS2900_mnt5op.jpg",
         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135563/Photography%20Website/Carousel/img1_zvznzx.jpg",
-        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135564/Photography%20Website/Carousel/img4_rbqdk8.jpg",
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1708707279/Photography%20Website/Carousel/ADP_4642_bnw_lntehx.jpg",
+         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135564/Photography%20Website/Carousel/img4_rbqdk8.jpg",
         "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135542/Photography%20Website/Carousel/img6_kub9gh.jpg",
 ]
 
