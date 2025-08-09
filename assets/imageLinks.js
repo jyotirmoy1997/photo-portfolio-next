@@ -116,6 +116,7 @@ export const galleryPreviewImages = [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227907/Photography%20Website/Gallery-Preview/the-brandstand/test15_x8up3s.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227906/Photography%20Website/Gallery-Preview/the-brandstand/test16_rvbaen.jpg"
         ]
+        
     },
     {
         id : 4,
