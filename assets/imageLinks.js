@@ -948,6 +948,38 @@ export const imageAlbums = {
         ]
     },
 
+    "shuvrajyotidoyelwedding" : {
+        text : "SHUVRAJYOTI & DOYEL'S WEDDING",
+        category : "Wedding Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1754119060/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/BGN_8940_xtb4n2.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1754119050/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/BGN_8967_n9cten.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1754119051/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/BGN_8974_mhujqy.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1754119052/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/BGN_8978_dqspvy.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1754119052/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/_ADP1131_jnpxnj.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1754119052/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/_ADP1212_vmujvq.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746088759/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/DSC06147_tmg0qu.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746088760/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/DSC06203_svppbc.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746088761/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/DSC06710_yfv4v0.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746088760/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/DSC06207_bfcsqa.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746088760/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/DSC06164_lawq2n.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746088759/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/DSC06197_w5b40m.jpg"
+        ]
+    },
+        "sujitshima" : {
+        text : "SUJIT & SHIMA'S 25th ANNIVERSARY",
+        category : "Post-Wedding Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284189/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/ADP_5972_qqrbwe.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284190/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/RSR_5023_y8lb0f.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284189/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/ADP_5961_la5q4r.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284192/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/RSR_5221_fnwgno.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284191/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/RSR_5213_mqtr5q.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284190/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/RSR_5019_rkocwf.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284191/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/RSR_5049_zlcvj7.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284189/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/ADP_5951_nuuyza.jpg"
+        ]
+    },
 }
 
 export const videoAlbums = {
@@ -1015,7 +1047,11 @@ export const BBSThumbnails = [
         id : "shuvrajyotidoyelprewed",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1720074269/Photography%20Website/ALBUM/THUMB/BibahoScapes/ShuvrajyotiDoyelPreWed/ADP_8363_adhsah.jpg",
     },
-    
+    {
+        text : "Shuvrajyoti & Doyel's Wedding",
+        id : "shuvrajyotidoyelwedding",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746088760/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/DSC06203_svppbc.jpg",
+    },
     {
         text : "Anamika & Papai's Wedding",
         id : "anamikapapai",
@@ -1062,6 +1098,11 @@ export const BBSThumbnails = [
         text : "Arnob & Arpita's Wedding",
         id : "arnobarpita",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703587997/Photography%20Website/ALBUM/THUMB/BibahoScapes/ArnobArpita/_DSC0485_EDITED_yqp4ma.jpg",
+    },
+    {
+        text : "Sujit & Shima's 25th Anniversary",
+        id : "sujitshima",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284189/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/ADP_5972_qqrbwe.jpg",
     },
 ]
 
