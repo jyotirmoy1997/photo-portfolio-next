@@ -1027,6 +1027,10 @@ export const videoAlbums = {
         text : "Faguneri Chonde",
         link : "https://www.youtube.com/embed/h3Hg8ONPPbw?si=sXaJUm3q9KYkkl0S"
     },
+    "tumisudhubolegele" : {
+        text : "Tumi Sudhu Bole Gele",
+        link : "https://www.youtube.com/embed/5DGtaJW8nAE?si=boFQgWFGUQccbOno"
+    }
 }
 
 
@@ -1482,5 +1486,11 @@ export const MPThumbnails = [
         text : "Faguneri Chonde",
         id : "fagunerichonde",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1742196027/Photography%20Website/ALBUM/THUMB/MediaPedia/Untitled-1_1_udkn4c.jpg",
+    },
+    {
+        id : 12,
+        text : "Tumi Sudhu Bole Gele",
+        id : "tumisudhubolegele",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1766998900/Photography%20Website/ALBUM/THUMB/MediaPedia/Tumi_Sudhu_Bole_Gele_qtgh7c.png",
     }
 ]
