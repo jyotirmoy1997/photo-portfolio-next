@@ -980,6 +980,72 @@ export const imageAlbums = {
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284189/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/ADP_5951_nuuyza.jpg"
         ]
     },
+    "ayansanjukta" : {
+        text : "AYAN & SANJUKTA'S WEDDING",
+        category : "Wedding Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021067/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2006_htqn8i.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021068/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2076_vtj8am.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021068/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2041_xije8l.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021069/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2086_d7ua80.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021071/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2276_kzeazd.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021073/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2288_vtholc.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021073/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2339_bnw_zu4a4o.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021074/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2341_yiqe6c.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021077/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2480_carhpp.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021078/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2647_w97a4k.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021078/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2349_wru5fu.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021079/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2658_s1zs9b.jpg"
+            
+        ],
+        
+    },
+    "rituparnabiplab" : {
+        text : "RITUPARNA & BIPLAB'S WEDDING",
+        category : "Wedding Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020761/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/TSP_3122_paot2d.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020762/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/TSP_3144_lacrlz.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020760/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/TSP_3073_bnw_cxe4fz.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020756/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/ADP_2766_a3dyev.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020756/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/ADP_2775_m0drgy.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020757/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/ADP_2787_w5fjwi.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020758/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/ADP_2908_uhjlnk.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020757/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/ADP_2839_ndxhxt.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020758/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/ADP_2940_nd2jaz.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020759/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/ADP_3503_x3zlce.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020794/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/TSP_4220_yo7mtb.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020792/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/TSP_4166_fz8puf.jpg",
+            
+        ],
+        
+    },
+    "srinikababy" : {
+        text : "SRINIKA'S RICE CEREMONY",
+        category : "Baby Shoot Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000156/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SRINIKA/ADP_4951_obgt9y.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000155/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SRINIKA/ADP_4953_f9hcz8.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000277/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SRINIKA/ADP_5032_xp3oy8.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000279/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SRINIKA/ADP_5040_lizrfr.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000278/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SRINIKA/ADP_5036_a5ulbq.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000284/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SRINIKA/ADP_5063_yqvzfj.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000175/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SRINIKA/ADP_5021_p8tfsc.jpg"
+        ],
+        
+    },
+    "saanvibaby" : {
+        text : "SANVI'S RICE CEREMONY",
+        category : "Baby Shoot Photography",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000287/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SAANVI/ADP_2809_qx0llx.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000286/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SAANVI/ADP_29422_ab098z.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000313/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SAANVI/ADP_2888_ymfh8t.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000314/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SAANVI/ADP_2960_ooy9ce.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000316/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SAANVI/ADP_2943_hzfem8.jpg"
+        ],
+        
+    },
 }
 
 export const videoAlbums = {
@@ -1056,6 +1122,11 @@ export const BBSThumbnails = [
         id : "shuvrajyotidoyelwedding",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746088760/Photography%20Website/ALBUM/BibahoScapes/ShuvrajyotiDoyel/DSC06203_svppbc.jpg",
     },
+     {
+        text : "Rituparna & Biplab's Wedding",
+        id : "rituparnabiplab",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777020783/Photography%20Website/ALBUM/BibahoScapes/RituparnaBiplab/TSP_3241_eyvpon.jpg",
+    },
     {
         text : "Anamika & Papai's Wedding",
         id : "anamikapapai",
@@ -1108,6 +1179,12 @@ export const BBSThumbnails = [
         id : "sujitshima",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1746284189/Photography%20Website/ALBUM/BibahoScapes/SUJITSHIMA/ADP_5972_qqrbwe.jpg",
     },
+    {
+        text : "Ayan & Sanjukta's Wedding",
+        id : "ayansanjukta",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1777021077/Photography%20Website/ALBUM/BibahoScapes/SanjuktaAyan/ADP_2344_jjcqnr.jpg",
+    },
+   
 ]
 
 export const PPThumbnails = [
@@ -1121,6 +1198,12 @@ export const PPThumbnails = [
         
     },
     {
+        text : "Baby Shoot - Srinika",
+        id : "srinikababy",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000157/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SRINIKA/ADP_4966_r19hr1.jpg",
+        
+    },
+    {
         id : 2,
         text : "Bridal - Anisha",
         id : "anishabridal",
@@ -1131,6 +1214,11 @@ export const PPThumbnails = [
         text : "Bridal - Alokita",
         id : "alokitabridal",
         imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1703589497/Photography%20Website/ALBUM/THUMB/PixelPerfect/Bridal/Alokita%20Sen/ADP_7018_xgdkdj.jpg",
+    },
+    {
+        text : "Baby Shoot - Saanvi",
+        id : "saanvibaby",
+        imgLink : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1767000317/Photography%20Website/ALBUM/PiexelPerfect/Babyshoot/SAANVI/ADP_3006_dqsri9.jpg",
     },
     {
         id : 4,
